@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Styles</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="/css/animate.min.css" type="text/css">
+    <link rel="stylesheet" href="/vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/vendor/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="/vendor/device-mockups/device-mockups.min.css">
+
+    <!-- Custom CSS
+    <link rel="stylesheet" href="css/main.css" type="text/css"> -->
+    <link href="/css/main.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+
+   <!--  
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+     <!--  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5644da281510c62f"></script>
+       -->
+
+</head>
+
+
+<body id="page-top">
+  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand page-scroll" href="/">Mobile Development Group</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="/blog/">Blog</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a class="outer-menu">menu</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+
+  <!-- Post Header -->
+<header id="header" class="intro-header bg-primary text-center" style="background-image: url('/')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+              <div class="post-heading">
+                <h1>Styles</h1>
+                
+                <p class="meta">Posted by Mobile Development Group, IIT Roorkee on April 12, 2015</p>
+                <a href="#post" class="page-scroll"><i class="fa fa-fw fa-2x fa-arrow-down"></i></a>
+              </div>
+            </div>
+        </div>
+    </div>
+</header>
+<hr>
+<!-- Post Content -->
+<article>
+    <div id="post" class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+		  
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- jekynewage google ads -->
+                <ins class="adsbygoogle"
+                    style="display:block"
+                    data-ad-client="ca-pub-9204963049240271"
+                    data-ad-slot="2973388149"
+                    data-ad-format="auto"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+		
+		<hr>
+
+				<h2 id="build-visually-compelling-apps">Build visually compelling Apps</h2>
+
+<p>While working with android you must have felt the importance as well as difficulties while styling your app.This article will help you understand the basics and utility of <strong><em>Styles</em></strong> in android.</p>
+
+<p><strong>Style</strong> in android are the properties pertaining to look and format of a view or a window.</p>
+
+<p>A <strong>theme</strong> is a style applied to an entire Activity or application.</p>
+
+<h2 id="resources">Resources</h2>
+<p>All the app resources such as static content like layouts, strings etc are placed in res/ directory.  res/values/ has XML files that contain simple values, such as strings, styles,  colors etc.</p>
+
+<p>XML resource files in other res/ subdirectories define a single resource based on the XML filename whereas files in the values/ directory describe multiple resources.
+For a file in this directory, each child of the <code class="highlighter-rouge">&lt;resources&gt;</code> element defines a single resource. For example, a <code class="highlighter-rouge">&lt;string&gt;</code> element creates a R.string resource and a <code class="highlighter-rouge">&lt;color&gt;</code> element creates a R.color resource.</p>
+
+<p>All these resources are compiled and assigned an interger value in R.java file located at project/build/generated/source/r/debug/package/R.java or simply use ctrl+ N and type R.</p>
+
+<h2 id="alternative-resources">Alternative Resources</h2>
+<p>You app runs on devices with different configuration.For example, to optimize the app for different screen sizes and densities you must provide alternative resources.Here is the way to do that:</p>
+
+<p>Create a new directory in res/ named in the form</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code> &lt;resources_name&gt;-&lt;config_qualifier&gt;
+</code></pre>
+</div>
+
+<ul>
+  <li>
+    <p><code class="highlighter-rouge">&lt;resources_name&gt;</code> is the directory name of the corresponding default  resources.</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">&lt;qualifier&gt;</code> is a name that specifies an individual configuration for which these resources are to be used.</p>
+  </li>
+</ul>
+
+<p>For example: 
+   drawable/ and drawable-hdpi/ .The resource files must be named
+   exactly the same as the default resource files.</p>
+
+<h2 id="accessing-resources">Accessing Resources</h2>
+<p>So how to access these resources in your project? Let’s have a look at this.</p>
+
+<p>When the application is compiled, aapt(Android Asset Packaging Tool) generates the R class, which contains resource IDs for all the resources in project’s res/ directory.</p>
+
+<p>For each type of resource, there is an R subclass (for example, R.drawable for all drawable resources), and for each resource of that type, there is a static integer (for example, R.drawable.icon). This integer is the resource ID.</p>
+
+<p>A resource ID is always composed of:</p>
+
+<ul>
+  <li>The resource type</li>
+  <li>The resource name</li>
+</ul>
+
+<p><strong>There are two ways to access a resource:</strong></p>
+
+<ol>
+  <li>
+    <p>Reference a resource in code:</p>
+
+    <p>[&lt;package_name&gt;.]R.&lt;resource_type&gt;.&lt;resource_name&gt;</p>
+
+    <p>For example:</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>     // Load a background for the current screen from a drawable resource
+
+     getWindow().setBackgroundDrawableResource(R.drawable.background_image) ;
+</code></pre>
+    </div>
+
+    <p>drawable is the resource type and background_image is the resource name</p>
+  </li>
+  <li>
+    <p>In xml</p>
+
+    <p>@[&lt;package_name&gt;:]&lt;resource_type&gt;/&lt;resource_name&gt;</p>
+
+    <p>For example:</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code> &lt;Button
+  android:layout_width=”fill_parent”
+  android:layout_height=”wrap_content”
+  android:text=”@string/submit” /&gt;
+</code></pre>
+    </div>
+
+    <p><code class="highlighter-rouge">&lt;package_name&gt;</code> is the name of the package in which the resource is located (not required when referencing resources from your own package).
+ <code class="highlighter-rouge">&lt;resource_type&gt;</code> is the R subclass for the resource type.
+ <code class="highlighter-rouge">&lt;resource_name&gt;</code> is either the resource filename without the extension or the android:name attribute value in the XML element (for simple values).
+ To reference a system resource, one would need to include the package name.
+ For example:</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code> android:textColor=”@android:color/secondary_text_dark”
+</code></pre>
+    </div>
+  </li>
+</ol>
+
+<p><strong>Referencing style attributes</strong></p>
+
+<p>A style attribute resource allows you to reference the value of an attribute in the currently-applied theme.</p>
+
+<p>Syntax:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>?[&lt;package_name&gt;:][&lt;resource_type&gt;/]&lt;resource_name&gt;
+</code></pre>
+</div>
+
+<p>For Example:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>   &lt;EditText id="text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="?android:textColorSecondary"
+        android:text="@string/hello_world" /&gt;
+</code></pre>
+</div>
+
+<p>Because the system resource tool knows that an attribute resource is expected in this context, we do not need to explicitly state the type (which would be ?android:attr/textColorSecondary) — we can exclude the attr type.</p>
+
+<p><strong>Accessing Platform Resources</strong></p>
+
+<p>Android contains a number of standard resources, such as styles, themes, and layouts.You need to add android package name to access these resources.
+For example:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>setListAdapter(new ArrayAdapter&lt;String&gt;(this, android.R.layout.simple_list_item_1, myarray));
+</code></pre>
+</div>
+
+<p>simple_list_item_1 is a layout resource defined by the platform for items in a ListView.</p>
+
+<h2 id="styles">Styles</h2>
+<p>Now we are all set to define styles.Here we go.</p>
+
+<p>To create a set of styles, save an XML file in the res/values/ directory of your project. The name of the XML file is arbitrary, but it must use the .xml extension and be saved in the res/values/ folder.</p>
+
+<p>The root node of the XML file must be <code class="highlighter-rouge">&lt;resources&gt;</code>.</p>
+
+<p>For each style you want to create, add a <code class="highlighter-rouge">&lt;style&gt;</code> element to the file with a name that uniquely identifies the style (this attribute is required). Then add an <code class="highlighter-rouge">&lt;item&gt;</code> element for each property of that style, with a name that declares the style property and a value to go with it (this attribute is required). The value for the <code class="highlighter-rouge">&lt;item&gt;</code> can be a keyword string, a hex color, a reference to another resource type, or other value depending on the style property. 
+For example:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;?xml version="1.0" encoding="utf-8"?&gt;</span>
+<span class="nt">&lt;resources&gt;</span>
+    <span class="nt">&lt;style</span> <span class="na">name=</span><span class="s">"MyFontStyle"</span> <span class="na">parent=</span><span class="s">"@android:style/TextAppearance.Medium"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;item</span> <span class="na">name=</span><span class="s">"android:layout_width"</span><span class="nt">&gt;</span>fill_parent<span class="nt">&lt;/item&gt;</span>
+        <span class="nt">&lt;item</span> <span class="na">name=</span><span class="s">"android:layout_height"</span><span class="nt">&gt;</span>wrap_content<span class="nt">&lt;/item&gt;</span>
+        <span class="nt">&lt;item</span> <span class="na">name=</span><span class="s">"android:textColor"</span><span class="nt">&gt;</span>#00FF00<span class="nt">&lt;/item&gt;</span>
+        <span class="nt">&lt;item</span> <span class="na">name=</span><span class="s">"android:typeface"</span><span class="nt">&gt;</span>monospace<span class="nt">&lt;/item&gt;</span>
+    <span class="nt">&lt;/style&gt;</span>
+<span class="nt">&lt;/resources&gt;</span>
+</code></pre>
+</div>
+
+<p>Each child of the <code class="highlighter-rouge">&lt;resources&gt;</code> element is converted into an application resource object at compile-time, which can be referenced by the value in the <code class="highlighter-rouge">&lt;style&gt;</code> element’s name attribute. This example style can be referenced from an XML layout as @style/MyFontStyle.</p>
+
+<p>The parent attribute in the <code class="highlighter-rouge">&lt;style&gt;</code> element is optional and specifies the resource ID of another style from which this style should inherit properties.</p>
+
+<h2 id="inheritance">Inheritance</h2>
+
+<p>The parent attribute in the <code class="highlighter-rouge">&lt;style&gt;</code> element lets you specify a style from which your style should inherit properties.</p>
+
+<ol>
+  <li>
+    <p>Inherit properties from an existing style</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code> &lt;style name="GreenText" parent="@android:style/TextAppearance"&gt;
+         &lt;item name="android:textColor"&gt;#00FF00&lt;/item&gt;
+     &lt;/style&gt;
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>Inherit from styles that you’ve created yourself</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code> &lt;style name="MyFontStyle.Red"&gt;
+         &lt;item name="android:textColor"&gt;#FF0000&lt;/item&gt;
+     &lt;/style&gt;
+</code></pre>
+    </div>
+  </li>
+</ol>
+
+<p>You can continue inheriting like this as many times as you’d like, by chaining names with periods.This technique for inheritance by chaining together names only works for styles defined by your own resources.</p>
+
+<h2 id="style-properties">Style Properties</h2>
+
+<p>For a reference of all available style properties, see the R.attr reference. Keep in mind that all View objects don’t accept all the same style attributes, so you should normally refer to the specific View class for supported style properties.</p>
+
+<h2 id="apply-a-theme">Apply a theme</h2>
+
+<p>You can find this attribute in your AndroidManifest.xml file</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code> &lt;application android:theme="@style/CustomTheme"&gt;
+</code></pre>
+</div>
+
+<p>If you want a theme applied to just one Activity in your application, then add the android:theme attribute to the<code class="highlighter-rouge">&lt;activity&gt;</code> tag instead.</p>
+
+<p>As of Android 5.0 (API 21) you can also assign the android:theme for a view. This allows to change the theme for this element and its child elements.</p>
+
+<h2 id="select-a-theme-based-on-platform-version">Select a theme based on platform version</h2>
+<p>To have a theme when the application is running on Android 3.0 (API Level 11) or higher, you can place an alternative declaration for the theme in an XML file in res/values-v11.Similarly for API Level 21 and above use res/values-v21.We’ll shortly see its great utility in maintaining compatibility.</p>
+
+<p>A list of the standard attributes that you can use in themes can be found at R.styleable.Theme.</p>
+
+<h2 id="using-platform-styles-and-themes">Using Platform Styles and Themes</h2>
+<p>The Android platform provides a large collection of styles and themes that you can use in your applications. You can find a reference of all available styles in the R.style class.</p>
+
+<p>For a better reference to the Android styles and themes, see the following source code:</p>
+
+<ul>
+  <li>Android Styles (styles.xml)</li>
+  <li>Android Themes (themes.xml)</li>
+</ul>
+
+<p>For a reference of available style attributes that you can use to define a style or theme (e.g., “windowBackground” or “textAppearance”), see R.attr or the respective View class for which you are creating a style.</p>
+
+<h2 id="styling-button">Styling Button</h2>
+<p>You can style your button such that it will change appearance depending on its current state.</p>
+
+<p><strong>Custom background</strong>
+To achieve this your background should be a state list resource.</p>
+
+<p>You can define the state list in an XML file that defines three different images or colors to use for the different button states.</p>
+
+<p>Create a new XML file in the res/drawable/ directory (name it something like button_custom.xml). Insert the following XML:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;?xml version="1.0" encoding="utf-8"?&gt;</span>
+<span class="nt">&lt;selector</span> <span class="na">xmlns:android=</span><span class="s">"http://schemas.android.com/apk/res/android"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;item</span> <span class="na">android:drawable=</span><span class="s">"@drawable/button_pressed"</span>
+          <span class="na">android:state_pressed=</span><span class="s">"true"</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;item</span> <span class="na">android:drawable=</span><span class="s">"@drawable/button_focused"</span>
+          <span class="na">android:state_focused=</span><span class="s">"true"</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;item</span> <span class="na">android:drawable=</span><span class="s">"@drawable/button_default"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/selector&gt;</span>
+</code></pre>
+</div>
+
+<p>The order of the <code class="highlighter-rouge">&lt;item&gt;</code> elements is important.</p>
+
+<p>Now simply apply the drawable XML file as the button background:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;Button
+    android:id="@+id/button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/bSend"
+    android:onClick="sendMessage"
+    android:background="@drawable/button_custom"  /&gt;
+</code></pre>
+</div>
+
+<h2 id="maintaining-compatibility">Maintaining Compatibility</h2>
+<p>New themes are introduced which provides new features for apps running on higher API levels.So that means while making use of those features your app won’t run on older versions.Well that is not the case and android provides a nice workaround.</p>
+
+<ol>
+  <li>
+    <p>For example:
+ You want to use material theme for API level 21 and above.Create a file themes.xml and put it under values folder.This will be used as default theme for lower API levels.</p>
+
+    <p>res/values/themes.xml:</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code> &lt;resources&gt;
+     &lt;style name="MyTheme" parent="@android:style/Theme"&gt;
+         &lt;!-- Any customizations for your app running on pre-5.0 devices here --&gt;
+     &lt;/style&gt;
+ &lt;/resources&gt;
+</code></pre>
+    </div>
+
+    <p>And make another file with similar name and put it under values-v21 folder.</p>
+
+    <p>res/values-v21/themes.xml:</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code> &lt;resources&gt;
+     &lt;style name="MyTheme" parent="@android:style/Theme.Material"&gt;
+         &lt;!-- Any customizations for your app running on devices with Theme.Material here --&gt;
+     &lt;/style&gt;
+ &lt;/resources&gt;
+</code></pre>
+    </div>
+
+    <p>Finally, in AndroidManifest.xml:</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>     &lt;application android:name="MyApplication"
+             android:label="@string/application_label"
+             android:icon="@drawable/app_icon"
+             android:hardwareAccelerated="true"
+             android:theme="@style/MyTheme"&gt;
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>Use Support Library</p>
+
+    <p>The Android Support Library package is a set of code libraries that provide backward-compatible versions of Android framework APIs as well as features that are only available through the library APIs. Each Support Library is backward-compatible to a specific Android API level.</p>
+  </li>
+</ol>
+
+
+                <hr>
+		    
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- jekynewage google ads -->
+                <ins class="adsbygoogle"
+                    style="display:block"
+                    data-ad-client="ca-pub-9204963049240271"
+                    data-ad-slot="2973388149"
+                    data-ad-format="auto"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/droid%20wars/2015/02/04/list-of-selected-candidates/" data-toggle="tooltip" data-placement="top" title="Recruitments 2015">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/introduction/2015/10/23/Installation/" data-toggle="tooltip" data-placement="top" title="Installation">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</article>
+
+<hr>
+
+
+<article>
+  <div id="disqus" class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+      <h2 class="section-heading">Leave a comment! We <i style="color:red"class="fa fa-heart"></i> it!</h2>
+
+      <script id="dsq-count-scr" src="//jeky-new-age.disqus.com/count.js" async></script>
+
+
+      <div id="disqus_thread"></div>
+      <script>
+
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+      /*
+      var disqus_config = function () {
+      this.page.url = ;  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = ;; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = '//jeky-new-age.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+    </div>
+  </div>
+</div>
+</article>
+
+<hr>
+
+
+
+
+
+  
+<section id="contact" class="contact bg-primary">
+    <div class="container">
+        <h2>We <i class="fa fa-heart"></i> new friends!</h2>
+        <ul class="list-inline list-social">
+            
+            <li class="social-twitter">
+                <a href="https://twitter.com/lantoniotrento" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+            </li>
+        
+            <li class="social-facebook">
+                <a href="https://facebook.com/mdgiitr" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+            </li>
+        
+            <li class="social-google-plus">
+                <a href="https://plus.google.com/mobiledevelopmentgroup" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+            </li>
+        
+            <li class="social-github">
+                <a href="http://github.com/sdsmdg" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+            </li>
+        
+        </ul>
+        <!-- <ul class="list-inline list-social">
+            <li class="social-twitter">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li class="social-facebook">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li class="social-google-plus">
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+            </li>
+        </ul> -->
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <p>Powered by Jekyll. All Rights Reserved.</p>
+    </div>
+</footer>
+
+  <!-- jQuery -->
+<script src="/js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript
+<script src="js/bootstrap.min.js"></script> -->
+
+<!-- Plugin JavaScript -->
+<script src="/js/jquery.easing.min.js"></script>
+<script src="/js/jquery.fittext.js"></script>
+<script src="/js/wow.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/creative.js"></script>
+
+<!-- jQuery
+<script src="/vendor/jquery/jquery.min.js"></script> -->
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+<!-- Theme JavaScript -->
+<script src="/js/new-age.min.js"></script>
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-86331249-1']);
+          _gaq.push(['_trackPageview']);
+  (function () {
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript';
+      ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+</body>
+
+</html>

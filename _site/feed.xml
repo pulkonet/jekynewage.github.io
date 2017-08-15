@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-08-15T16:20:58+05:30</updated><id>http://localhost:4000/</id><title type="html">Mobile Development Group, IIT Roorkee</title><subtitle>Where ideas meet reality</subtitle><entry><title type="html">Recruitments 2017</title><link href="http://localhost:4000/droid%20wars/2017/01/15/list-of-selected-candidates/" rel="alternate" type="text/html" title="Recruitments 2017" /><published>2017-01-15T00:00:00+05:30</published><updated>2017-01-15T00:00:00+05:30</updated><id>http://localhost:4000/droid%20wars/2017/01/15/list-of-selected-candidates</id><content type="html" xml:base="http://localhost:4000/droid%20wars/2017/01/15/list-of-selected-candidates/">&lt;p&gt;List of selected candidates for Mobile Development Group, SDS, IIT Roorkee.
+Here is the final list of candidates selected&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Aniket Singh        ECE&lt;/li&gt;
+  &lt;li&gt;Arihant Jain        EE&lt;/li&gt;
+  &lt;li&gt;Dakshit Agrawal     CSE&lt;/li&gt;
+  &lt;li&gt;Harshit Bansal      ECE&lt;/li&gt;
+  &lt;li&gt;Jaskirat Singh      ECE&lt;/li&gt;
+  &lt;li&gt;Keshav Tiwari       ECE&lt;/li&gt;
+  &lt;li&gt;Kriti Singh         CSE&lt;/li&gt;
+  &lt;li&gt;Mohit Jain          EE&lt;/li&gt;
+  &lt;li&gt;Pulkit Gupta        Chemical&lt;/li&gt;
+  &lt;li&gt;Rajat Gupta         Metallurgy&lt;/li&gt;
+  &lt;li&gt;Rohan Bhatiya       CSE&lt;/li&gt;
+  &lt;li&gt;Samagra Sharma      CSE&lt;/li&gt;
+  &lt;li&gt;Suyash Mahar        ECE&lt;/li&gt;
+  &lt;li&gt;Tanisha Yadav       Chemical&lt;/li&gt;
+  &lt;li&gt;Vishvas Mittal      CSE&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Congratulations to all.&lt;/p&gt;</content><author><name></name></author><category term="Droid Wars" /><category term="recruitments" /><summary type="html">List of selected candidates for Mobile Development Group, SDS, IIT Roorkee. Here is the final list of candidates selected</summary></entry><entry><title type="html">108 Emergency Services Hackathon Experience</title><link href="http://localhost:4000/hackathons/2016/12/30/108Hackathon-expereince/" rel="alternate" type="text/html" title="108 Emergency Services Hackathon Experience" /><published>2016-12-30T00:00:00+05:30</published><updated>2016-12-30T00:00:00+05:30</updated><id>http://localhost:4000/hackathons/2016/12/30/108Hackathon-expereince</id><content type="html" xml:base="http://localhost:4000/hackathons/2016/12/30/108Hackathon-expereince/">&lt;h1 id=&quot;108-emergency-services-hackathon-experience&quot;&gt;108 Emergency Services Hackathon Experience&lt;/h1&gt;
+
+&lt;p&gt;Participating in 108 Emergency Services Hackathon was a very nice experience for us and winning the competition makes it even better. So we decided to share our experience with everyone.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;what-is-108-hackathon&quot;&gt;What is 108 Hackathon?&lt;/h2&gt;
+
+&lt;p&gt;It was a hackathon specially organized by TNHSP and IIT Madras. The aim of this hackathon was to come up with solutions that leverage the capabilities of a smart phone and integrate them with 108 emergency call center to decrease the response times.
+It was held at IIT Madras on 17th and 18th December, 2016.
+You can further read about it at &lt;a href=&quot;https://www.108hackathon.in/&quot;&gt;108 Hackathon’s Website&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;our-experience&quot;&gt;Our Experience&lt;/h2&gt;
+
+&lt;h3 id=&quot;what-we-did&quot;&gt;What we did?&lt;/h3&gt;
+&lt;p&gt;We made two android apps, one for the user requiring emergency and another for the ambulance driver. Also we made an online dashboard to be used by the 108 emergency call center to view the emergency request made in real time and process them.&lt;/p&gt;
+
+&lt;h5 id=&quot;user-app&quot;&gt;User App&lt;/h5&gt;
+&lt;p&gt;In this we implemented a 108 dial listener so that whenever the user dials 108, a service gets started in the background which fetches the location using inbuilt GPS and sends it to our sever via internet or sms (if no internet).
+Also it contained a one time signup screen for registering user details on our server.&lt;/p&gt;
+&lt;div class=&quot;row&quot;&gt;
+  &lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/assets/images/posts_images/108hackathon/userapp_1/1.png&quot; alt=&quot;Screenshots&quot; id=&quot;userapp_gif_1&quot; style=&quot; width:250px; margin-left:0; margin-right:20px;&quot; /&gt;&lt;img src=&quot;/assets/images/posts_images/108hackathon/userapp_2/1.png&quot; alt=&quot;Screenshots&quot; id=&quot;userapp_gif_2&quot; style=&quot; width:250px; margin-right:0;&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h5 id=&quot;server&quot;&gt;Server&lt;/h5&gt;
+&lt;p&gt;It was based on &lt;a href=&quot;https://nodejs.org/en/&quot;&gt;Node.js&lt;/a&gt; and for database we choose &lt;a href=&quot;https://firebase.google.com/docs/database/&quot;&gt;Firebase Realtime Database&lt;/a&gt;. It hosted both the api as well as the dashboard and was deployed online using heroku services.
+On the server after receiving a new request from the user’s app, it searches through our database in the users city for the nearest ambulance driver using google’s &lt;a href=&quot;https://developers.google.com/maps/documentation/distance-matrix/intro&quot;&gt;Distance Matrix Api&lt;/a&gt;.
+Once the driver is found a sms is sent to the driver’s mobile along with the info of the user requesting emergency. Meanwhile the user is also sent a sms containing the details about the driver and his ETA to reach him which is then parsed and automatically displayed on the user’s app.&lt;/p&gt;
+
+&lt;h5 id=&quot;driver-app&quot;&gt;Driver App&lt;/h5&gt;
+&lt;p&gt;This app implemented a sms listener, which triggers on receiving any sms from our server. It then shows an activity containing a map with users location and other details. The driver can navigate through the location using google maps api.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/assets/images/posts_images/108hackathon/driverapp/1.png&quot; alt=&quot;Screenshots&quot; id=&quot;driverapp_gif&quot; style=&quot; width:250px; margin-left:0; margin-right:0;&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;dashboard&quot;&gt;Dashboard&lt;/h5&gt;
+&lt;p&gt;It used simple html, css and js and contained the following elements:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;List of recent requests&lt;/li&gt;
+  &lt;li&gt;Map containing location of all drivers and users&lt;/li&gt;
+  &lt;li&gt;Graph showing no. of requests made in recent hours&lt;/li&gt;
+  &lt;li&gt;Two pie charts showing city wise ratio of users and drivers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;To view dashboard &lt;a href=&quot;https://dashboard108.herokuapp.com&quot;&gt;click here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;a href=&quot;https://dashboard108.herokuapp.com&quot;&gt;&lt;img src=&quot;/assets/images/posts_images/108hackathon/dashboard/1.png&quot; alt=&quot;Screenshots&quot; id=&quot;dashboard_gif&quot; style=&quot;margin-left:0; margin-right:0;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;languages-used&quot;&gt;Languages used&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Java for Android&lt;/li&gt;
+  &lt;li&gt;Node.Js&lt;/li&gt;
+  &lt;li&gt;Javascript&lt;/li&gt;
+  &lt;li&gt;Html&lt;/li&gt;
+  &lt;li&gt;Css&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;what-we-learned&quot;&gt;What we learned?&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;OTP verification&lt;/li&gt;
+  &lt;li&gt;Firebase Authentication and Database&lt;/li&gt;
+  &lt;li&gt;Sms listener and sender&lt;/li&gt;
+  &lt;li&gt;Android service and Intent Filters&lt;/li&gt;
+  &lt;li&gt;Constructing a Dashboard&lt;/li&gt;
+  &lt;li&gt;Sms to http request implementation&lt;/li&gt;
+  &lt;li&gt;Working with google maps api
+    &lt;ul&gt;
+      &lt;li&gt;Geocoding and reverse geocoding&lt;/li&gt;
+      &lt;li&gt;Distance Matrix Api&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;what-we-got&quot;&gt;What we got?&lt;/h3&gt;
+
+&lt;p&gt;We bagged 4th position in the Hackathon and &lt;strong&gt;won a cash prize of Rs. 10,000&lt;/strong&gt; along with mementos and certificates of commendation. Along with these we had an amazing experience of working in a team for more than 24 hours straight.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You can check our submission &lt;a href=&quot;https://github.com/rahulbabbar1/108/&quot;&gt;here.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><category term="Hackathons" /><category term="hackathons" /><summary type="html">108 Emergency Services Hackathon Experience</summary></entry><entry><title type="html">Droid Wars 2016</title><link href="http://localhost:4000/droidwars/2016/11/24/droid-wars-16/" rel="alternate" type="text/html" title="Droid Wars 2016" /><published>2016-11-24T20:00:00+05:30</published><updated>2016-11-24T20:00:00+05:30</updated><id>http://localhost:4000/droidwars/2016/11/24/droid-wars-16</id><content type="html" xml:base="http://localhost:4000/droidwars/2016/11/24/droid-wars-16/">&lt;h1 id=&quot;droid-wars-2016&quot;&gt;Droid Wars 2016&lt;/h1&gt;
+
+&lt;p&gt;After successful recruitment drives since the past three years, we are back with &lt;strong&gt;Droid Wars&lt;/strong&gt; for 2016. Droid Wars is a gateway for first yearites to be a part of an amazing learning and fun experience with &lt;em&gt;SDSMDG&lt;/em&gt;. Being a part of the group you will be in touch with like minded people, who are mobile development enthusiasts as well as pursue other software development practices. This is an introductory blog which covers information and tips later as well.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;what-is-droid-wars-&quot;&gt;What is Droid Wars ?&lt;/h2&gt;
+
+&lt;p&gt;It is a hackathon specially organized for first yearites by &lt;em&gt;SDSMDG&lt;/em&gt; as a part of recruitment drive. We release certain problem statements and students will have to make an application on Android or iOS platforms according to &lt;strong&gt;any one of them&lt;/strong&gt;. Sending a good submission in Droid wars will send you directly to the final interview of recruitment, skipping the Written Test and Preliminary Interviews, which would be held in &lt;strong&gt;January&lt;/strong&gt;, next semester.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Deadline: 8 January 2017&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Problem Statements:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;You are going to be Sherlocked! (&lt;a href=&quot;https://mdg.sdslabs.co/droidwars16/prob1_android.pdf&quot;&gt;Android&lt;/a&gt; / &lt;a href=&quot;https://mdg.sdslabs.co/droidwars16/prob1_ios.pdf&quot;&gt;iOS&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;The Hitlist of Arya Stark (&lt;a href=&quot;https://mdg.sdslabs.co/droidwars16/prob2_android.pdf&quot;&gt;Android&lt;/a&gt; / &lt;a href=&quot;https://mdg.sdslabs.co/droidwars16/prob2_ios.pdf&quot;&gt;iOS&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Keyboard out of a Keyboard (&lt;a href=&quot;https://mdg.sdslabs.co/droidwars16/prob3_android.pdf&quot;&gt;Android&lt;/a&gt; / &lt;a href=&quot;https://mdg.sdslabs.co/droidwars16/prob3_ios.pdf&quot;&gt;iOS&lt;/a&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;instructions&quot;&gt;Instructions&lt;/h2&gt;
+
+&lt;h3 id=&quot;general&quot;&gt;General&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;There are 3 categories (Android, iOS, Design) available for making a submission. Design Problem statement will be released later.&lt;/li&gt;
+  &lt;li&gt;You may make multiple submissions across different categories (Android / iOS) but &lt;strong&gt;only one&lt;/strong&gt; in each category.&lt;/li&gt;
+  &lt;li&gt;Ensure that the submission fulfills all the requirements mentioned in the problem statement.&lt;/li&gt;
+  &lt;li&gt;Send us your submissions before the deadline on &lt;a href=&quot;mailto:sdsmobilelabs@gmail.com&quot;&gt;sdsmobilelabs@gmail.com&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;If you face any difficulties or have any doubts, you may contact us on &lt;a href=&quot;https://mdg.sdslabs.co/chat&quot;&gt;chat&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;hint-the-bold-words-in-problem-statement-can-be-used-as-keywords-for-google-search-&quot;&gt;Hint: The bold words in problem statement can be used as keywords for Google search !&lt;/h6&gt;
+
+&lt;h3 id=&quot;android-and-ios-related&quot;&gt;Android and iOS Related&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You are required to make an Android/iOS app for making a submission under this category.&lt;/li&gt;
+  &lt;li&gt;There are 3 Problem Statements available in Android/iOS category, you are free to choose any one out of them.&lt;/li&gt;
+  &lt;li&gt;First try to complete the basic features as given in the problem statement, only after which you may fight for the bonus points. You may get more creative and add anything else as well, make sure it fits correctly.&lt;/li&gt;
+  &lt;li&gt;Your submission must contain one of the following two:
+    &lt;ol&gt;
+      &lt;li&gt;&lt;em&gt;A link to your code hosted online on platforms like GitHub (preferred), BitBucket etc&lt;/em&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;A zip file containing all the code&lt;/em&gt;. (Also include the &lt;strong&gt;compiled apk file&lt;/strong&gt; in the mail attachments for Android category)&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;general-faqs&quot;&gt;General FAQs&lt;/h2&gt;
+
+&lt;h4 id=&quot;can-i-make-more-changes-to-the-app-or-should-i-exactly-follow-instructions-given-on-the-blog&quot;&gt;Can I make more changes to the app or should I exactly follow instructions given on the blog?&lt;/h4&gt;
+
+&lt;p&gt;You first have to ensure that you complete the app according to the problem statement. Then you may add whatever feature you like.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-is-git--github--how-to-use-it&quot;&gt;What is git / GitHub ? How to use it?&lt;/h4&gt;
+
+&lt;p&gt;Git is a distributed source control system. It helps to maintain your code and changes in different versions of your project. You may use any git repo hosting service like GitHub or BitBucket.
+If you know it from before, you may use it otherwise &lt;strong&gt;there is no need&lt;/strong&gt; for it in this competition.&lt;/p&gt;
+
+&lt;h4 id=&quot;i-dont-have-internet-at-home-can-i-compete-properly-&quot;&gt;I don’t have internet at home, can I compete properly ?&lt;/h4&gt;
+
+&lt;p&gt;We would recommend you to get one temporarily, for usual googling. Although there is no problem if you do not have one. Before going home make sure your code compiles properly, &lt;a href=&quot;https://chrome.google.com/webstore/detail/save-as-pdf/kpdjmbiefanbdgnkcikhllpmjnnllbbc&quot;&gt;download all problem statements as PDFs&lt;/a&gt;. And download the videos of these channels from Youtube (google how to do so), you may even find them on DC++.&lt;/p&gt;
+
+&lt;p&gt;You may also want to download the udacity course videos, instructions for which can be found &lt;a href=&quot;https://www.quora.com/Where-can-I-get-Udacity-course-videos-for-free&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;android-faqs&quot;&gt;Android FAQs&lt;/h2&gt;
+
+&lt;h4 id=&quot;i-know-cpp-only-should-i-learn-java-too&quot;&gt;I know CPP only, should I learn JAVA too?&lt;/h4&gt;
+
+&lt;p&gt;Android is not all about JAVA only. Most of the code we use is easily available on the internet. But you should definitely know the basics of Object Oriented Programming. Basics of Java would be enough. Although your less knowledge of JAVA would not create any hindrance for your selection in the group.&lt;/p&gt;
+
+&lt;h4 id=&quot;i-did-not-attend-the-lectures-from-where-can-i-start-learning-android-&quot;&gt;I did not attend the lectures, from where can I start learning android ?&lt;/h4&gt;
+
+&lt;p&gt;To submit your app on time, the best thing would be if you just search for what you need. For example, you want to know about TextView, just search that term and you would get tons of good links (StackOverflow is preferable). You can learn from android courses on &lt;a href=&quot;https://www.udacity.com/courses/android&quot;&gt;UdaCity&lt;/a&gt;, if you have enough time.&lt;br /&gt;
+Here is one more course on youtube, &lt;a href=&quot;https://www.youtube.com/watch?v=QAbQgLGKd3Y&amp;amp;list=PL6gx4Cwl9DGBsvRxJJOzG4r4k_zLKrnxl&quot;&gt;The New Boston&lt;/a&gt; (Recommended: Watch only a few videos).&lt;/p&gt;
+
+&lt;h4 id=&quot;should-i-know-xml-too-or-can-the-user-interface-help-me-with-all-i-need-to-do&quot;&gt;Should I know XML too or can the user interface help me with all I need to do?&lt;/h4&gt;
+
+&lt;p&gt;To submit the app, you may use only Interface but after that it would be good if you learn XML too.&lt;/p&gt;
+
+&lt;h2 id=&quot;ios-faqs&quot;&gt;iOS FAQs&lt;/h2&gt;
+
+&lt;h4 id=&quot;do-i-need-a-mac-and-iphone-for-making-ios-apps&quot;&gt;Do I need a Mac and iPhone for making iOS apps?&lt;/h4&gt;
+
+&lt;p&gt;Not necessarily. You can use any virtual machine to run OS X and use the built-in simulator which would just suffice for most of the work. Cross-platform iOS apps which you may have developed using Xamarin or React etc. are also a way to go without a Mac and iPhone. However, please note that the road is not as smooth as for a native iOS devloper who owns both Mac and iPhone.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;table&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;strong&gt;Useful links:&lt;/strong&gt; &lt;a href=&quot;https://www.virtualbox.org/wiki/Downloads&quot;&gt;About Virtual Box&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=DYMEb0ZCfes&quot;&gt;Installation&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;how-should-i-get-started-with-ios-app-dev-shall-i-learn-swift-or-objc&quot;&gt;How should I get started with iOS app dev? Shall I learn Swift or ObjC?&lt;/h4&gt;
+
+&lt;p&gt;Swift is a powerful and intuitive programming language for iOS. Writing Swift code is interactive and fun. Objective-C, which is the primary programming language for iOS, is old and hard to code.
+You can learn from iOS courses on &lt;a href=&quot;https://www.udacity.com/courses/ios&quot;&gt;UdaCity&lt;/a&gt;, if you have enough time. For getting started, read this &lt;a href=&quot;https://www.facebook.com/groups/SDSWebDev/455571147987371&quot;&gt;post&lt;/a&gt;.
+However you can follow other iOS tutorial sites like Ray Wenderlich and Appcoda etc.&lt;/p&gt;
+
+&lt;h4 id=&quot;do-ive-to-upload-my-app-to-app-store-if-yes-what-are-the-steps-i-need-to-follow&quot;&gt;Do I’ve to upload my app to App Store? If yes, what are the steps I need to follow?&lt;/h4&gt;
+
+&lt;p&gt;For the Droid Wars, you need not. But in general if you’d like to know, watch this &lt;a href=&quot;https://www.youtube.com/watch?v=tnbOcpwJGa8&quot;&gt;video&lt;/a&gt; or follow this &lt;a href=&quot;https://www.raywenderlich.com/127936/submit-an-app-part-1&quot;&gt;blog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Once again, ping us for any queries on our &lt;a href=&quot;https://mdg.sdslabs.co/chat&quot;&gt;chat&lt;/a&gt;. This hackathon is not like your examinations where you are given the questions and you’ll have to write answers by yourselves. Interact with us, ask us if you’re stuck and we’ll help you out. Don’t hesitate to ask although make sure you’ve tried to solve the problem before you ask us.&lt;br /&gt;
+We are eager to see your submissions, give it your best shot and surprise us !&lt;/p&gt;
+
+&lt;p&gt;Best of luck !&lt;/p&gt;</content><author><name></name></author><category term="DroidWars" /><category term="recruitments" /><summary type="html">Droid Wars 2016</summary></entry><entry><title type="html">Android Studio Installation</title><link href="http://localhost:4000/android%20studio%20installation/2016/10/17/android-studio-installation/" rel="alternate" type="text/html" title="Android Studio Installation" /><published>2016-10-17T00:00:00+05:30</published><updated>2016-10-17T00:00:00+05:30</updated><id>http://localhost:4000/android%20studio%20installation/2016/10/17/android-studio-installation</id><content type="html" xml:base="http://localhost:4000/android%20studio%20installation/2016/10/17/android-studio-installation/">&lt;p&gt;Hey there! For Android app development, you first need a development environment for which you have two choices :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;ANDROID STUDIO&lt;/strong&gt; based on Intellij IDEA platform recommended by Google and any other sane person for android development&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ECLLIPSE&lt;/strong&gt; (Google officially declared it to be obsolete for android development).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We will focus on &lt;em&gt;Android Studio&lt;/em&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;system-requirements&quot;&gt;System Requirements&lt;/h2&gt;
+
+&lt;p&gt;Building apps with &lt;strong&gt;Android Studio&lt;/strong&gt; has following requirements:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Windows:&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Microsoft Windows 10/8/7/Vista (32- or 64-bit)&lt;/li&gt;
+    &lt;li&gt;2 GB RAM minimum while 4 GB RAM is recommended (mostly for running emulator for android)&lt;/li&gt;
+    &lt;li&gt;400 MB hard disk space&lt;/li&gt;
+    &lt;li&gt;At least 1 GB for Android SDK, emulator system images, and caches(don’t bother)&lt;/li&gt;
+    &lt;li&gt;1280 x 800 minimum screen resolution&lt;/li&gt;
+    &lt;li&gt;Java Development Kit (JDK) 7or above&lt;/li&gt;
+    &lt;li&gt;Optional for accelerated emulator(skip if you are a beginner): Intel® processor with support for Intel® VT-x, Intel® EM64T (Intel® 64), and Execute Disable (XD) Bit functionality&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Mac OS X:&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Mac® OS X® 10.8.5 or higher, up to 10.9 (Mavericks)&lt;/li&gt;
+    &lt;li&gt;2 GB RAM minimum, 4 GB RAM recommended (mostly for running emulator for android)&lt;/li&gt;
+    &lt;li&gt;400 MB hard disk space&lt;/li&gt;
+    &lt;li&gt;At least 1 GB for Android SDK, emulator system images, and caches(don’t bother)&lt;/li&gt;
+    &lt;li&gt;1280 x 800 minimum screen resolution&lt;/li&gt;
+    &lt;li&gt;Java Runtime Environment (JRE) 6&lt;/li&gt;
+    &lt;li&gt;Java Development Kit (JDK) 7&lt;/li&gt;
+    &lt;li&gt;Optional for accelerated emulator(skip if you are a beginner): Intel® processor with support for Intel® VT-x, Intel® EM64T (Intel® 64), and Execute Disable (XD) Bit functionality&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;getting-started&quot;&gt;Getting Started&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;i class=&quot;icon-check&quot;&gt;&lt;/i&gt; Setting up Java environment&lt;/strong&gt;
+This is the most crucial part for a beginner with less or no knowledge about programming. We will focus on windows, if you have any other OS, you can contact us.&lt;/p&gt;
+
+&lt;p&gt;Go to &lt;a href=&quot;http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html&quot; title=&quot;Java Download page&quot;&gt;Java download page&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-2Ib224wr9x8/Vt03JmlhRSI/AAAAAAAACJQ/6QgGur4_FVc/s1600/Java7.jpg&quot; alt=&quot;&quot; title=&quot;java7&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Download and install the latest version of JDK matching your system specification.&lt;/p&gt;
+
+&lt;p&gt;Now go to the path where Java is installed and copy the path Address as shown in image&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-Ahc6i6-NnsQ/WAHJaZI1qrI/AAAAAAAADy0/oWmSaWmuVA8P1krypKNxcQZGztyygPB1wCLcB/s0/Screenshot+from+2016-10-05+17-02-26.png&quot; alt=&quot;enter image description here&quot; title=&quot;Java&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Go to Control Panel -&amp;gt; System and Security&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://2.bp.blogspot.com/-4CsTyKnooOw/UR-UvnYNGII/AAAAAAAAAho/Jd5U5dc4DsM/s640/windows8_control_panel.JPG&quot; alt=&quot;enter image description here&quot; title=&quot;control panel&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Go to System -&amp;gt; Advanced System settings&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-WcYq7RTdUZA/UR-U1PYDucI/AAAAAAAAAiI/hKk6nxhqaoY/s640/windows8_system_and_security.JPG&quot; alt=&quot;enter image description here&quot; title=&quot;system&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://2.bp.blogspot.com/-FBQMKviDa0g/UR-U08B-_eI/AAAAAAAAAiE/x1Jrxi1r77w/s640/windows8_system.JPG&quot; alt=&quot;enter image description here&quot; title=&quot;advsettings&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Under Advanced tab, click Environment Variables&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://4.bp.blogspot.com/-taR8pvDqBkA/UR-U10dSNqI/AAAAAAAAAiY/sh4FP0DULuE/s640/windows8_system_properties.JPG&quot; alt=&quot;enter image description here&quot; title=&quot;env box&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Click on New.. and give a random variable name, in variable value, paste the path address that you copied earlier.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://4.bp.blogspot.com/-Ld9O3cM65P8/UR-U0ENQYoI/AAAAAAAAAhw/z2I9qNF0-3g/s640/windows8_java_path_settings.JPG&quot; alt=&quot;enter image description here&quot; title=&quot;final&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can ensure that your effort is valid by typing “javac -version”(without quotes) in command prompt. If you get a version, you have successfully set-up Java environment variable and you are good to go.&lt;/p&gt;
+
+&lt;h4 id=&quot;android-studio-installation&quot;&gt;&lt;i class=&quot;icon-check&quot;&gt;&lt;/i&gt;Android Studio Installation&lt;/h4&gt;
+
+&lt;p&gt;This is an easy and cliche installation without any fuss. All you have to do is go &lt;a href=&quot;http://developer.android.com/sdk/index.html&quot; title=&quot;here&quot;&gt;here&lt;/a&gt; and click on download.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://4.bp.blogspot.com/-tvKjoFGqi3Q/Vt03Jlfgw0I/AAAAAAAACJU/wPEBdl06AN0/s1600/AndroidStudio.jpg&quot; alt=&quot;android studio&quot; title=&quot;studio&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can keep all default settings in the Installation wizard and once installation is done, you will be prompted to install Android SDK which is itself a cake walk.
+&lt;img src=&quot;https://lh3.googleusercontent.com/-FeeBvpav4eo/WAHP_ZJhciI/AAAAAAAADzM/KbnVOTqa_kY7GLcH2UduIGQqZvDO6HPbACLcB/s0/Screenshot+from+2016-10-05+17-11-48.png&quot; alt=&quot;android sdk&quot; title=&quot;sdk&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;If you face any problem you can contact us at &lt;a href=&quot;http://mdg.sdslabs.co/chat&quot;&gt;Chat&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><category term="Android Studio Installation" /><category term="androidstudio" /><category term="setup" /><category term="installation" /><summary type="html">Hey there! For Android app development, you first need a development environment for which you have two choices :</summary></entry><entry><title type="html">Droid Wars - Problem 3</title><link href="http://localhost:4000/droid%20wars/2015/12/22/TicTacToe/" rel="alternate" type="text/html" title="Droid Wars - Problem 3" /><published>2015-12-22T20:05:00+05:30</published><updated>2015-12-22T20:05:00+05:30</updated><id>http://localhost:4000/droid%20wars/2015/12/22/TicTacToe</id><content type="html" xml:base="http://localhost:4000/droid%20wars/2015/12/22/TicTacToe/">&lt;h3 id=&quot;tic-tac-toe&quot;&gt;&lt;strong&gt;Tic-Tac-Toe&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Everyone of you must have heard of the game Tic Tac Toe. Tic-tac-toe is a game for two players, X and O, who take turns marking the spaces in a 3x3 Grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game. Create an android app for the classic “Tic-Tac-Toe” game. Your app should consist of :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Main Screen&lt;/strong&gt;: It should consist of two text fields, for containing names of players X-O and two buttons, “Play” and “View Highscores”. Clicking on “Play” opens up a screen containing the grid for playing tic-tac-toe and clicking on “View Highscores” opens a list of highscores.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Play&lt;/strong&gt;: This screen must have a centered text view on the top which displays the name of the player and the sign of play ( X or O ) having the current turn. On changing turns, the name of player and the sign of play ( X or O ) must change simultaneously. The screen must be occupied with a 3x3 grid view. The players can play the game by simply touching on each tile of the grid. On game over, a game over dialog box should pop out.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Game Over&lt;/strong&gt;: A Dialog Box should appear when one of the players wins or if there is a draw. If the name of winner is already stored in the database, his overall score must be incremented by 1, or a new entry must be made in the database, with a score of 1 point. The dialog box should specify the name of the player who won &amp;amp; and the score of both players after adding score of the current game.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;View Highscores&lt;/strong&gt;: This screen must display the list of players with their names and highscores.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;bonus-points&quot;&gt;&lt;strong&gt;Bonus Points&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Elegant User Interface.&lt;/li&gt;
+  &lt;li&gt;Sort the players according to their high Scores.&lt;/li&gt;
+  &lt;li&gt;Implement a fade-in appear of X and O symbols in the tiles instead of straightaway displaying them, when a player touches a tile of grid, playing his move. You can also implement any other animation for rendering of symbols.&lt;/li&gt;
+  &lt;li&gt;Drop down suggestions containing names of players who played recently, while typing in the name of players (On the Main Screen).&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="Droid Wars" /><category term="recruitments" /><summary type="html">Tic-Tac-Toe</summary></entry><entry><title type="html">Droid Wars - Problem 2</title><link href="http://localhost:4000/droid%20wars/2015/12/22/Car-Pooling/" rel="alternate" type="text/html" title="Droid Wars - Problem 2" /><published>2015-12-22T20:00:00+05:30</published><updated>2015-12-22T20:00:00+05:30</updated><id>http://localhost:4000/droid%20wars/2015/12/22/Car-Pooling</id><content type="html" xml:base="http://localhost:4000/droid%20wars/2015/12/22/Car-Pooling/">&lt;h3 id=&quot;car-pooling&quot;&gt;&lt;strong&gt;Car Pooling&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;With the pollution in Delhi continuously on the rise, the metropolitan gears up to try odd-even strategy for vehicles to curb pollution from the coming year. Though the motive behind this is large and noble, but is bound to create confusions and anarchy. The residents of Delhi need a system which is efficient and ensures lesser confusion and serves the purpose. The Delhi government needs you to create &lt;strong&gt;“Hitch My Ride”&lt;/strong&gt;, which fits in the requirements the city needs. Your task is to create a prototype of this app, which the government will integrate with their servers and put it in action. The app will let the people hitch a ride with a car that has the same destination as theirs. The citizens just need to add a record of them going from one place to another along with their basic details, and someone who can ride along the way will contact them. Your app should have the following screens :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Main Screen&lt;/strong&gt;: The home screen should consist of two buttons, “Add Record” and “Display Records”. Clicking on “Add Record” opens up a screen to create a new record for a commuter and clicking on “Display Records” opens a list of details about records of commuters stored.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Add Record&lt;/strong&gt;: This screen is displayed when the user clicks on “Add Record” button. It is meant for anybody to add a record for their traveling from one location to another. It should display a form to fill up the details. Inclusion of these fields is mandatory:
+    &lt;ul&gt;
+      &lt;li&gt;Name, Gender, Age, Contact Information of the commuter.&lt;/li&gt;
+      &lt;li&gt;Preferred Gender (Which gender are you comfortable to travel along - Male Youth, Female Youth, Senior Citizens, implement a set of checkboxes)&lt;/li&gt;
+      &lt;li&gt;Source and Destination (Select place from two separate drop down menus: Chandni Chowk, Connaught Place, Defense Colony, Hauz Khas, Mehrauli, Nizamuddin, Sarojini Nagar, Tilak Nagar, etc.)&lt;/li&gt;
+      &lt;li&gt;Date and Time of Journey.&lt;/li&gt;
+      &lt;li&gt;“Save Details” button.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Display Records&lt;/strong&gt;: This screen is displayed when the user clicks on “Display Records” button. It should display a list of records stored about the commuters in the mobile so far, which people would view to find a ride for them. Each item of list will show basic details of the commuter. Clicking on any item will open up complete details of the commuter.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Commuter Details&lt;/strong&gt;: This screen is displayed when the user clicks on any item from the list of commuters. It should display the complete information stored in the database about the commuter.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;bonus-points&quot;&gt;&lt;strong&gt;Bonus Points&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Elegant User Interface, particularly Material UI.&lt;/li&gt;
+  &lt;li&gt;If cards in the list have different background colours according to the commuter being male, female youth or senior citizen.&lt;/li&gt;
+  &lt;li&gt;If the commuter can upload his/her image which can be stored and displayed.&lt;/li&gt;
+  &lt;li&gt;If there are validations at various fields in “Add record”, such as checking whether age is a number, whether source and destination are different, and if not followed, an alert is displayed in a suitable manner.&lt;/li&gt;
+  &lt;li&gt;Usage of special input fields pertaining to time-date and age, rather than simple text field.&lt;/li&gt;
+  &lt;li&gt;Any other tweak or feature which adds to the utility of the app as per your creativity.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="Droid Wars" /><category term="recruitments" /><summary type="html">Car Pooling</summary></entry><entry><title type="html">Droid Wars - Problem 1</title><link href="http://localhost:4000/droid%20wars/2015/12/22/StarWars/" rel="alternate" type="text/html" title="Droid Wars - Problem 1" /><published>2015-12-22T19:55:00+05:30</published><updated>2015-12-22T19:55:00+05:30</updated><id>http://localhost:4000/droid%20wars/2015/12/22/StarWars</id><content type="html" xml:base="http://localhost:4000/droid%20wars/2015/12/22/StarWars/">&lt;h3 id=&quot;starwars&quot;&gt;&lt;strong&gt;StarWars&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;A long time ago in a galaxy far far away, the Rebel Alliance managed to defeat the Galactic Empire and end the tyranny of Sith. The Jedi battled with and gained victory over the dark side and restored balance to the force. While the galaxy is busy in celebrations, the whereabouts of Skywalker - the last Jedi, are unknown. The Sith cease to survive, yet there are followers who are keen to re-establish the dark side. It is now time for you, to choose your side - the Light Side or the Dark Side of the force. You need to create an app, which serves to &lt;strong&gt;“Keep friends close, enemies closer !”&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The app, whichever side it serves, will have same functionality. It should be named &lt;strong&gt;“Resistance”&lt;/strong&gt;, symbolizing the affiliations with the Rebel Alliance (Light side) or &lt;strong&gt;“First Order”&lt;/strong&gt;, symbolizing the affiliations with the Empire (Dark Side). Your app should consist of :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Main Screen&lt;/strong&gt;: It should consist of two buttons, “Add Warrior” and “Display Warriors”. Clicking on “New Warrior” opens up a screen to create a new entry for a warrior and clicking on “Display Warriors” opens a list of details about warriors stored.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Add Warrior&lt;/strong&gt;: This screen is displayed when the user clicks on “Add Warrior” button. It should display a form. Inclusion of these fields is mandatory:&lt;/li&gt;
+  &lt;li&gt;Name of the warrior&lt;/li&gt;
+  &lt;li&gt;Affiliation (Radio Buttons: Light Side or Dark Side)&lt;/li&gt;
+  &lt;li&gt;Species (Select species from a drop down menu: Human, Mammalian, Reptilian, Avian, Craniopod, Droid, Humanoid)&lt;/li&gt;
+  &lt;li&gt;Gender (Male, Female, Machine)&lt;/li&gt;
+  &lt;li&gt;Last Spotted on (Date wise format)&lt;/li&gt;
+  &lt;li&gt;Last known presence (Select planet from a drop down menu: Alderaan, Bespin, Coruscant, Dagobah, Endor, Geonosis, Hoth, Kamino, Mustafar, Naboo, Tatooine, Utapau, Yavin – at least 7 planets)&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;“Save Details” button.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Display Warriors&lt;/strong&gt;: This screen is displayed when the user clicks on “Display Warriors” button. It should display a list of warriors stored in the mobile so far, with each item of list showing basic details of the warrior. Clicking on any item will open up complete details of the warrior.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Warrior Details&lt;/strong&gt;: This screen is displayed when the user clicks on any item from the list of warriors. It should display the complete information stored in the database about the warrior.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;bonus-points&quot;&gt;&lt;strong&gt;Bonus Points&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Elegant User Interface, particularly Material UI.&lt;/li&gt;
+  &lt;li&gt;If there is a “Delete” button in “Warrior Details” screen to delete a particular record.&lt;/li&gt;
+  &lt;li&gt;If cards in the list have a background colour Blue or Red according to the warrior being Jedi or Sith respectively.&lt;/li&gt;
+  &lt;li&gt;If images of each warrior can be captured/ taken from gallery, and can be stored and displayed.&lt;/li&gt;
+  &lt;li&gt;Imagine you communicate with your teammates through WhatsApp.&lt;/li&gt;
+  &lt;li&gt;Introduce a new field “Contact number” in “Add Warrior” screen, and “Send Info” button in “Warrior Details”, which sends the details of the current displayed warrior through WhatsApp.&lt;/li&gt;
+  &lt;li&gt;Any other tweak or feature which adds to the utility of the app as per your creativity.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="Droid Wars" /><category term="recruitments" /><summary type="html">StarWars</summary></entry><entry><title type="html">Installation</title><link href="http://localhost:4000/introduction/2015/10/23/Installation/" rel="alternate" type="text/html" title="Installation" /><published>2015-10-23T00:00:00+05:30</published><updated>2015-10-23T00:00:00+05:30</updated><id>http://localhost:4000/introduction/2015/10/23/Installation</id><content type="html" xml:base="http://localhost:4000/introduction/2015/10/23/Installation/">&lt;h2 id=&quot;why-develop-for-android&quot;&gt;Why Develop For Android?&lt;/h2&gt;
+
+&lt;p&gt;With over &lt;strong&gt;1 billion&lt;/strong&gt; Android devices already activated, Android represents an incredible opportunity for developers.
+Android Studio is a latest and most widely accepted IDE designed by Google itself. If you want to develop apps in android then it is highly recommended to use Android Studio.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;quick-overview&quot;&gt;Quick Overview&lt;/h2&gt;
+&lt;p&gt;A typical native android application is written using XML for the frontend (the User Interface) and JAVA for the backend.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;JAVA&lt;/strong&gt;
+All the programming part in android development is done using JAVA. Although it’s a great advantage, if you know a thing or two about programming in Java, but even if you know any object oriented programming language, then it will not be much difficult to relate to the concepts used during development. In short if you know C++ or C then also you are at peace.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;XML&lt;/strong&gt;
+This is used to build the app’s user interface. All user interface elements in an Android app are built using View and ViewGroup objects. It has drag and drop User Interface&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Running the app&lt;/strong&gt;
+An android application can run either on your device or in the emulator that comes bundled with the SDK. Since the emulators can be slow, it is always recommended to use an actual device. &lt;a href=&quot;http://developer.android.com/intl/zh-cn/training/basics/firstapp/running-app.html&quot;&gt;This link&lt;/a&gt; contains the detailed explanation for setting up your device/emulator for testing.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;installation-of-android-studio&quot;&gt;Installation of Android Studio&lt;/h1&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;JDK and JRE are essential for JAVA to run on your machine.&lt;/p&gt;
+
+&lt;h3 id=&quot;for-windows&quot;&gt;For windows:&lt;/h3&gt;
+
+&lt;h4 id=&quot;installing-java&quot;&gt;&lt;strong&gt;Installing JAVA&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Follow &lt;a href=&quot;http://www.oracle.com/technetwork/java/javase/downloads/index.html&quot;&gt;the link&lt;/a&gt; and click Java Platform (JDK) 8u60 photograph. It redirects to a new page on which select Accept the license and download the version which is best suited with your machine.
+After installing the JDK, you need to set the environment variable JAVA_HOME path and for that:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;For this, right-click on the ‘This PC’ icon on your desktop and select ‘Properties’. On the next screen that appears, go to ‘Advanced system settings’ item. On the ‘System Properties’ window that appears, select the ‘Environment Variables’ button. 
+&lt;img src=&quot;https://raw.githubusercontent.com/sdsmdg/sdsmdg.github.io/master/public/images/installation/system_properties.png?raw=true&quot; alt=&quot;System Properties&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;The ‘Environment Variables’ window will appear (see figure below). Click on the ‘New…’ button. 
+&lt;img src=&quot;https://raw.githubusercontent.com/sdsmdg/sdsmdg.github.io/master/public/images/installation/environment_variables.png?raw=true&quot; alt=&quot;Environment Variables&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;The ‘New System Variable’ window will appear (see the figure below). Enter ‘JAVA_HOME’ as the variable name and ‘C:\Program Files\Java\jdk1.8.0_25’ as the variable value. Then click the ‘OK’ button. 
+&lt;img src=&quot;https://raw.githubusercontent.com/sdsmdg/sdsmdg.github.io/master/public/images/installation/new_system_variable.png?raw=true&quot; alt=&quot;New System Variable&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;Scroll down the ‘System variables’ window until you see the ‘Path’ item, then click on it. Then click on the ‘Edit…’ button. The ‘Edit System Variable’ window will appear. 
+&lt;img src=&quot;https://raw.githubusercontent.com/sdsmdg/sdsmdg.github.io/master/public/images/installation/edit_system_variable.png?raw=true&quot; alt=&quot;Edit System Variable&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;Click anywhere in the ‘Variable value’ field and then press the End key on your PC. Then type the following into the field:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;;C:\Program Files\Java\jdk1.8.0_25\bin\&lt;/p&gt;
+
+&lt;p&gt;*Do not forget the semi-colon at the start - they are used to separate each path item from one another. The completed screen will look something like this: 
+&lt;img src=&quot;https://raw.githubusercontent.com/sdsmdg/sdsmdg.github.io/master/public/images/installation/edit_system_variable2.png?raw=true&quot; alt=&quot;Edit system variable 2&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;For reference, one can visit &lt;a href=&quot;http://ridz1ba.blogspot.in/2015/01/how-to-install-oracle-java-and-andoid.html&quot;&gt;this link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;installing-ide&quot;&gt;&lt;strong&gt;Installing IDE&lt;/strong&gt;&lt;/h4&gt;
+&lt;hr /&gt;
+&lt;p&gt;• Go to &lt;a href=&quot;http://developer.android.com/sdk/index.html&quot;&gt;this link&lt;/a&gt; and select “Download Android Studio for Windows”.&lt;/p&gt;
+
+&lt;p&gt;• Check the “ I have read and agree with the above terms and conditions” box and Download Android Studio For Windows.&lt;/p&gt;
+
+&lt;p&gt;• Install studio after downloading.&lt;/p&gt;
+
+&lt;p&gt;• Open the Android Studio. A window similar to the below one would appear. Select configure in it.
+&lt;img src=&quot;https://github.com/sdsmdg/sdsmdg.github.io/blob/master/public/images/installation/newproject.jpg?raw=true&quot; alt=&quot;New Project&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;• Click on the SDK Manager icon (containing android and a downward sign).&lt;img src=&quot;https://github.com/sdsmdg/sdsmdg.github.io/blob/master/public/images/installation/configure.jpg?raw=true&quot; alt=&quot;Configure&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Install the following packages
+&lt;img src=&quot;https://github.com/sdsmdg/sdsmdg.github.io/blob/master/public/images/installation/SDKTools.jpg?raw=true&quot; alt=&quot;SDK tools&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;for-linux-users-&quot;&gt;&lt;strong&gt;For Linux Users :&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Installing JAVA&lt;/strong&gt;
+• sudo apt-get update&lt;/p&gt;
+
+&lt;p&gt;• sudo apt-get install default-jre&lt;/p&gt;
+
+&lt;p&gt;• sudo apt-get install default-jdk&lt;/p&gt;
+
+&lt;p&gt;• sudo apt-get install oracle-java8-installer&lt;/p&gt;
+
+&lt;p&gt;• sudo update-alternatives –config java&lt;/p&gt;
+
+&lt;p&gt;• sudo vim /etc/environment – add JAVA_HOME=”YOUR_PATH” {Your path is the path returned in previous command}.&lt;/p&gt;
+
+&lt;p&gt;• source /etc/environment&lt;/p&gt;
+
+&lt;p&gt;For reference one can &lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-install-java-on-ubuntu-with-apt-get&quot;&gt;visit this link.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If there is still some error, one could also refer &lt;a href=&quot;http://www.wikihow.com/Install-Oracle-Java-JDK-on-Ubuntu-Linux&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;installing-ide-1&quot;&gt;&lt;strong&gt;Installing IDE&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.android.com/sdk/index.html&quot;&gt;Follow this link&lt;/a&gt; -&amp;gt; select All Android Studio Packages -&amp;gt; Linux. This will start the download.&lt;/li&gt;
+  &lt;li&gt;Extract the file. In terminal type  :
+     cd /{Location where you extracted}/android-studio/bin
+    sh studio.sh&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;• Open the Android Studio. A window similar to the below one would appear. Select configure in it.
+&lt;img src=&quot;https://github.com/sdsmdg/sdsmdg.github.io/blob/master/public/images/installation/newproject.jpg?raw=true&quot; alt=&quot;New Project&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;• Click on the SDK Manager icon (containing android and a downward sign).&lt;img src=&quot;https://github.com/sdsmdg/sdsmdg.github.io/blob/master/public/images/installation/configure.jpg?raw=true&quot; alt=&quot;Configure&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;• Install the following packages
+&lt;img src=&quot;https://github.com/sdsmdg/sdsmdg.github.io/blob/master/public/images/installation/SDKTools.jpg?raw=true&quot; alt=&quot;SDK tools&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;some-common-errors&quot;&gt;&lt;strong&gt;Some Common errors:&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;unable to access android sdk add-on list:
+&lt;a href=&quot;http://stackoverflow.com/questions/29878370/android-studio-first-run-error&quot;&gt;http://stackoverflow.com/questions/29878370/android-studio-first-run-error&lt;/a&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Turn off the firewall.&lt;/li&gt;
+      &lt;li&gt;Run Studio again.&lt;/li&gt;
+      &lt;li&gt;Add android files to trusted files in your windows firewall and restart the firewall.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Your Android SDK is missing, out of date, or is missing templates. You can configure your SDK via Configure -&amp;gt; Project Defaults -&amp;gt; Project Structure -&amp;gt; SDKs: &lt;a href=&quot;http://stackoverflow.com/questions/26796724/your-android-sdk-is-missing-out-of-date-or-is-missing-templates&quot;&gt;http://stackoverflow.com/questions/26796724/your-android-sdk-is-missing-out-of-date-or-is-missing-templates&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Unable to locate adb within SDK: &lt;a href=&quot;http://stackoverflow.com/questions/14421171/adb-error-on-android-sdk-using-linux-ubuntu-64-bit-12-10&quot;&gt;http://stackoverflow.com/questions/14421171/adb-error-on-android-sdk-using-linux-ubuntu-64-bit-12-10&lt;/a&gt;, &lt;a href=&quot;http://stackoverflow.com/questions/27301960/unable-to-locate-adb-within-sdk&quot;&gt;http://stackoverflow.com/questions/27301960/unable-to-locate-adb-within-sdk&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;links-to-kick-start-with-developing-android-apps&quot;&gt;&lt;strong&gt;Links to kick start with developing Android apps&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBsvRxJJOzG4r4k_zLKrnxl&quot;&gt;thenewboston&lt;/a&gt; : Youtube channel to get you started.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Some basic links to grasp a bit of more knowledge:&lt;/strong&gt;
+&lt;a href=&quot;http://stackoverflow.com/questions/1906445/what-is-the-difference-between-jdk-and-jre&quot;&gt;http://stackoverflow.com/questions/1906445/what-is-the-difference-between-jdk-and-jre&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://stackoverflow.com/questions/5102022/what-does-the-java-home-environment-variable-do&quot;&gt;http://stackoverflow.com/questions/5102022/what-does-the-java-home-environment-variable-do&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="Introduction" /><category term="intro" /><summary type="html">Why Develop For Android?</summary></entry><entry><title type="html">Styles</title><link href="http://localhost:4000/styles/2015/04/12/Styles/" rel="alternate" type="text/html" title="Styles" /><published>2015-04-12T00:00:00+05:30</published><updated>2015-04-12T00:00:00+05:30</updated><id>http://localhost:4000/styles/2015/04/12/Styles</id><content type="html" xml:base="http://localhost:4000/styles/2015/04/12/Styles/">&lt;h2 id=&quot;build-visually-compelling-apps&quot;&gt;Build visually compelling Apps&lt;/h2&gt;
+
+&lt;p&gt;While working with android you must have felt the importance as well as difficulties while styling your app.This article will help you understand the basics and utility of &lt;strong&gt;&lt;em&gt;Styles&lt;/em&gt;&lt;/strong&gt; in android.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Style&lt;/strong&gt; in android are the properties pertaining to look and format of a view or a window.&lt;/p&gt;
+
+&lt;p&gt;A &lt;strong&gt;theme&lt;/strong&gt; is a style applied to an entire Activity or application.&lt;/p&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+&lt;p&gt;All the app resources such as static content like layouts, strings etc are placed in res/ directory.  res/values/ has XML files that contain simple values, such as strings, styles,  colors etc.&lt;/p&gt;
+
+&lt;p&gt;XML resource files in other res/ subdirectories define a single resource based on the XML filename whereas files in the values/ directory describe multiple resources.
+For a file in this directory, each child of the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;resources&amp;gt;&lt;/code&gt; element defines a single resource. For example, a &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;string&amp;gt;&lt;/code&gt; element creates a R.string resource and a &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;color&amp;gt;&lt;/code&gt; element creates a R.color resource.&lt;/p&gt;
+
+&lt;p&gt;All these resources are compiled and assigned an interger value in R.java file located at project/build/generated/source/r/debug/package/R.java or simply use ctrl+ N and type R.&lt;/p&gt;
+
+&lt;h2 id=&quot;alternative-resources&quot;&gt;Alternative Resources&lt;/h2&gt;
+&lt;p&gt;You app runs on devices with different configuration.For example, to optimize the app for different screen sizes and densities you must provide alternative resources.Here is the way to do that:&lt;/p&gt;
+
+&lt;p&gt;Create a new directory in res/ named in the form&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &amp;lt;resources_name&amp;gt;-&amp;lt;config_qualifier&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;resources_name&amp;gt;&lt;/code&gt; is the directory name of the corresponding default  resources.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;qualifier&amp;gt;&lt;/code&gt; is a name that specifies an individual configuration for which these resources are to be used.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For example: 
+   drawable/ and drawable-hdpi/ .The resource files must be named
+   exactly the same as the default resource files.&lt;/p&gt;
+
+&lt;h2 id=&quot;accessing-resources&quot;&gt;Accessing Resources&lt;/h2&gt;
+&lt;p&gt;So how to access these resources in your project? Let’s have a look at this.&lt;/p&gt;
+
+&lt;p&gt;When the application is compiled, aapt(Android Asset Packaging Tool) generates the R class, which contains resource IDs for all the resources in project’s res/ directory.&lt;/p&gt;
+
+&lt;p&gt;For each type of resource, there is an R subclass (for example, R.drawable for all drawable resources), and for each resource of that type, there is a static integer (for example, R.drawable.icon). This integer is the resource ID.&lt;/p&gt;
+
+&lt;p&gt;A resource ID is always composed of:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The resource type&lt;/li&gt;
+  &lt;li&gt;The resource name&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;There are two ways to access a resource:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Reference a resource in code:&lt;/p&gt;
+
+    &lt;p&gt;[&amp;lt;package_name&amp;gt;.]R.&amp;lt;resource_type&amp;gt;.&amp;lt;resource_name&amp;gt;&lt;/p&gt;
+
+    &lt;p&gt;For example:&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;     // Load a background for the current screen from a drawable resource
+
+     getWindow().setBackgroundDrawableResource(R.drawable.background_image) ;
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+
+    &lt;p&gt;drawable is the resource type and background_image is the resource name&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In xml&lt;/p&gt;
+
+    &lt;p&gt;@[&amp;lt;package_name&amp;gt;:]&amp;lt;resource_type&amp;gt;/&amp;lt;resource_name&amp;gt;&lt;/p&gt;
+
+    &lt;p&gt;For example:&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &amp;lt;Button
+  android:layout_width=”fill_parent”
+  android:layout_height=”wrap_content”
+  android:text=”@string/submit” /&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;package_name&amp;gt;&lt;/code&gt; is the name of the package in which the resource is located (not required when referencing resources from your own package).
+ &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;resource_type&amp;gt;&lt;/code&gt; is the R subclass for the resource type.
+ &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;resource_name&amp;gt;&lt;/code&gt; is either the resource filename without the extension or the android:name attribute value in the XML element (for simple values).
+ To reference a system resource, one would need to include the package name.
+ For example:&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; android:textColor=”@android:color/secondary_text_dark”
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Referencing style attributes&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A style attribute resource allows you to reference the value of an attribute in the currently-applied theme.&lt;/p&gt;
+
+&lt;p&gt;Syntax:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;?[&amp;lt;package_name&amp;gt;:][&amp;lt;resource_type&amp;gt;/]&amp;lt;resource_name&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;For Example:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;   &amp;lt;EditText id=&quot;text&quot;
+        android:layout_width=&quot;fill_parent&quot;
+        android:layout_height=&quot;wrap_content&quot;
+        android:textColor=&quot;?android:textColorSecondary&quot;
+        android:text=&quot;@string/hello_world&quot; /&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Because the system resource tool knows that an attribute resource is expected in this context, we do not need to explicitly state the type (which would be ?android:attr/textColorSecondary) — we can exclude the attr type.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Accessing Platform Resources&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Android contains a number of standard resources, such as styles, themes, and layouts.You need to add android package name to access these resources.
+For example:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;setListAdapter(new ArrayAdapter&amp;lt;String&amp;gt;(this, android.R.layout.simple_list_item_1, myarray));
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;simple_list_item_1 is a layout resource defined by the platform for items in a ListView.&lt;/p&gt;
+
+&lt;h2 id=&quot;styles&quot;&gt;Styles&lt;/h2&gt;
+&lt;p&gt;Now we are all set to define styles.Here we go.&lt;/p&gt;
+
+&lt;p&gt;To create a set of styles, save an XML file in the res/values/ directory of your project. The name of the XML file is arbitrary, but it must use the .xml extension and be saved in the res/values/ folder.&lt;/p&gt;
+
+&lt;p&gt;The root node of the XML file must be &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;resources&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;For each style you want to create, add a &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;style&amp;gt;&lt;/code&gt; element to the file with a name that uniquely identifies the style (this attribute is required). Then add an &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;item&amp;gt;&lt;/code&gt; element for each property of that style, with a name that declares the style property and a value to go with it (this attribute is required). The value for the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;item&amp;gt;&lt;/code&gt; can be a keyword string, a hex color, a reference to another resource type, or other value depending on the style property. 
+For example:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;resources&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;style&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;MyFontStyle&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;parent=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;@android:style/TextAppearance.Medium&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;item&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;android:layout_width&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;fill_parent&lt;span class=&quot;nt&quot;&gt;&amp;lt;/item&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;item&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;android:layout_height&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;wrap_content&lt;span class=&quot;nt&quot;&gt;&amp;lt;/item&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;item&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;android:textColor&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;#00FF00&lt;span class=&quot;nt&quot;&gt;&amp;lt;/item&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;item&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;android:typeface&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;monospace&lt;span class=&quot;nt&quot;&gt;&amp;lt;/item&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/resources&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Each child of the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;resources&amp;gt;&lt;/code&gt; element is converted into an application resource object at compile-time, which can be referenced by the value in the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;style&amp;gt;&lt;/code&gt; element’s name attribute. This example style can be referenced from an XML layout as @style/MyFontStyle.&lt;/p&gt;
+
+&lt;p&gt;The parent attribute in the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;style&amp;gt;&lt;/code&gt; element is optional and specifies the resource ID of another style from which this style should inherit properties.&lt;/p&gt;
+
+&lt;h2 id=&quot;inheritance&quot;&gt;Inheritance&lt;/h2&gt;
+
+&lt;p&gt;The parent attribute in the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;style&amp;gt;&lt;/code&gt; element lets you specify a style from which your style should inherit properties.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Inherit properties from an existing style&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &amp;lt;style name=&quot;GreenText&quot; parent=&quot;@android:style/TextAppearance&quot;&amp;gt;
+         &amp;lt;item name=&quot;android:textColor&quot;&amp;gt;#00FF00&amp;lt;/item&amp;gt;
+     &amp;lt;/style&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Inherit from styles that you’ve created yourself&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &amp;lt;style name=&quot;MyFontStyle.Red&quot;&amp;gt;
+         &amp;lt;item name=&quot;android:textColor&quot;&amp;gt;#FF0000&amp;lt;/item&amp;gt;
+     &amp;lt;/style&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;You can continue inheriting like this as many times as you’d like, by chaining names with periods.This technique for inheritance by chaining together names only works for styles defined by your own resources.&lt;/p&gt;
+
+&lt;h2 id=&quot;style-properties&quot;&gt;Style Properties&lt;/h2&gt;
+
+&lt;p&gt;For a reference of all available style properties, see the R.attr reference. Keep in mind that all View objects don’t accept all the same style attributes, so you should normally refer to the specific View class for supported style properties.&lt;/p&gt;
+
+&lt;h2 id=&quot;apply-a-theme&quot;&gt;Apply a theme&lt;/h2&gt;
+
+&lt;p&gt;You can find this attribute in your AndroidManifest.xml file&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &amp;lt;application android:theme=&quot;@style/CustomTheme&quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;If you want a theme applied to just one Activity in your application, then add the android:theme attribute to the&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;activity&amp;gt;&lt;/code&gt; tag instead.&lt;/p&gt;
+
+&lt;p&gt;As of Android 5.0 (API 21) you can also assign the android:theme for a view. This allows to change the theme for this element and its child elements.&lt;/p&gt;
+
+&lt;h2 id=&quot;select-a-theme-based-on-platform-version&quot;&gt;Select a theme based on platform version&lt;/h2&gt;
+&lt;p&gt;To have a theme when the application is running on Android 3.0 (API Level 11) or higher, you can place an alternative declaration for the theme in an XML file in res/values-v11.Similarly for API Level 21 and above use res/values-v21.We’ll shortly see its great utility in maintaining compatibility.&lt;/p&gt;
+
+&lt;p&gt;A list of the standard attributes that you can use in themes can be found at R.styleable.Theme.&lt;/p&gt;
+
+&lt;h2 id=&quot;using-platform-styles-and-themes&quot;&gt;Using Platform Styles and Themes&lt;/h2&gt;
+&lt;p&gt;The Android platform provides a large collection of styles and themes that you can use in your applications. You can find a reference of all available styles in the R.style class.&lt;/p&gt;
+
+&lt;p&gt;For a better reference to the Android styles and themes, see the following source code:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Android Styles (styles.xml)&lt;/li&gt;
+  &lt;li&gt;Android Themes (themes.xml)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For a reference of available style attributes that you can use to define a style or theme (e.g., “windowBackground” or “textAppearance”), see R.attr or the respective View class for which you are creating a style.&lt;/p&gt;
+
+&lt;h2 id=&quot;styling-button&quot;&gt;Styling Button&lt;/h2&gt;
+&lt;p&gt;You can style your button such that it will change appearance depending on its current state.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Custom background&lt;/strong&gt;
+To achieve this your background should be a state list resource.&lt;/p&gt;
+
+&lt;p&gt;You can define the state list in an XML file that defines three different images or colors to use for the different button states.&lt;/p&gt;
+
+&lt;p&gt;Create a new XML file in the res/drawable/ directory (name it something like button_custom.xml). Insert the following XML:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;selector&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;xmlns:android=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://schemas.android.com/apk/res/android&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;item&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;android:drawable=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;@drawable/button_pressed&quot;&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;android:state_pressed=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;true&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;item&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;android:drawable=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;@drawable/button_focused&quot;&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;android:state_focused=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;true&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;item&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;android:drawable=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;@drawable/button_default&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/selector&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The order of the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;item&amp;gt;&lt;/code&gt; elements is important.&lt;/p&gt;
+
+&lt;p&gt;Now simply apply the drawable XML file as the button background:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;Button
+    android:id=&quot;@+id/button&quot;
+    android:layout_width=&quot;wrap_content&quot;
+    android:layout_height=&quot;wrap_content&quot;
+    android:text=&quot;@string/bSend&quot;
+    android:onClick=&quot;sendMessage&quot;
+    android:background=&quot;@drawable/button_custom&quot;  /&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;maintaining-compatibility&quot;&gt;Maintaining Compatibility&lt;/h2&gt;
+&lt;p&gt;New themes are introduced which provides new features for apps running on higher API levels.So that means while making use of those features your app won’t run on older versions.Well that is not the case and android provides a nice workaround.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;For example:
+ You want to use material theme for API level 21 and above.Create a file themes.xml and put it under values folder.This will be used as default theme for lower API levels.&lt;/p&gt;
+
+    &lt;p&gt;res/values/themes.xml:&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &amp;lt;resources&amp;gt;
+     &amp;lt;style name=&quot;MyTheme&quot; parent=&quot;@android:style/Theme&quot;&amp;gt;
+         &amp;lt;!-- Any customizations for your app running on pre-5.0 devices here --&amp;gt;
+     &amp;lt;/style&amp;gt;
+ &amp;lt;/resources&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+
+    &lt;p&gt;And make another file with similar name and put it under values-v21 folder.&lt;/p&gt;
+
+    &lt;p&gt;res/values-v21/themes.xml:&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &amp;lt;resources&amp;gt;
+     &amp;lt;style name=&quot;MyTheme&quot; parent=&quot;@android:style/Theme.Material&quot;&amp;gt;
+         &amp;lt;!-- Any customizations for your app running on devices with Theme.Material here --&amp;gt;
+     &amp;lt;/style&amp;gt;
+ &amp;lt;/resources&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+
+    &lt;p&gt;Finally, in AndroidManifest.xml:&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;     &amp;lt;application android:name=&quot;MyApplication&quot;
+             android:label=&quot;@string/application_label&quot;
+             android:icon=&quot;@drawable/app_icon&quot;
+             android:hardwareAccelerated=&quot;true&quot;
+             android:theme=&quot;@style/MyTheme&quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Use Support Library&lt;/p&gt;
+
+    &lt;p&gt;The Android Support Library package is a set of code libraries that provide backward-compatible versions of Android framework APIs as well as features that are only available through the library APIs. Each Support Library is backward-compatible to a specific Android API level.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="Styles" /><category term="styles" /><summary type="html">Build visually compelling Apps</summary></entry><entry><title type="html">Recruitments 2015</title><link href="http://localhost:4000/droid%20wars/2015/02/04/list-of-selected-candidates/" rel="alternate" type="text/html" title="Recruitments 2015" /><published>2015-02-04T00:00:00+05:30</published><updated>2015-02-04T00:00:00+05:30</updated><id>http://localhost:4000/droid%20wars/2015/02/04/list-of-selected-candidates</id><content type="html" xml:base="http://localhost:4000/droid%20wars/2015/02/04/list-of-selected-candidates/">&lt;p&gt;List of selected candidates for Mobile Development Group&lt;/p&gt;
+
+&lt;p&gt;Here is the final list of candidates selected for Mobile Development Group,&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Abhishek Sachdeva (ECE)&lt;/li&gt;
+  &lt;li&gt;Akshay Kumar (META)&lt;/li&gt;
+  &lt;li&gt;Amit Kumar (ECE)&lt;/li&gt;
+  &lt;li&gt;Anshul Shah (CSE)&lt;/li&gt;
+  &lt;li&gt;Karan Desai (EE)&lt;/li&gt;
+  &lt;li&gt;Manthan Sheth (EE)&lt;/li&gt;
+  &lt;li&gt;P Kinnera Priya (EE)&lt;/li&gt;
+  &lt;li&gt;Raghav Chawla (ECE)&lt;/li&gt;
+  &lt;li&gt;Shubham Kumar (EE)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Congratulations to all.&lt;/p&gt;</content><author><name></name></author><category term="Droid Wars" /><category term="recruitments" /><summary type="html">List of selected candidates for Mobile Development Group</summary></entry></feed>

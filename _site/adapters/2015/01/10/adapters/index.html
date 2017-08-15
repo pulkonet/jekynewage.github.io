@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Adapters</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="/css/animate.min.css" type="text/css">
+    <link rel="stylesheet" href="/vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/vendor/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="/vendor/device-mockups/device-mockups.min.css">
+
+    <!-- Custom CSS
+    <link rel="stylesheet" href="css/main.css" type="text/css"> -->
+    <link href="/css/main.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+
+   <!--  
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+     <!--  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5644da281510c62f"></script>
+       -->
+
+</head>
+
+
+<body id="page-top">
+  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand page-scroll" href="/">Mobile Development Group</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="/blog/">Blog</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a class="outer-menu">menu</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+
+  <!-- Post Header -->
+<header id="header" class="intro-header bg-primary text-center" style="background-image: url('/')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+              <div class="post-heading">
+                <h1>Adapters</h1>
+                
+                <p class="meta">Posted by Mobile Development Group, IIT Roorkee on January 10, 2015</p>
+                <a href="#post" class="page-scroll"><i class="fa fa-fw fa-2x fa-arrow-down"></i></a>
+              </div>
+            </div>
+        </div>
+    </div>
+</header>
+<hr>
+<!-- Post Content -->
+<article>
+    <div id="post" class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+		  
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- jekynewage google ads -->
+                <ins class="adsbygoogle"
+                    style="display:block"
+                    data-ad-client="ca-pub-9204963049240271"
+                    data-ad-slot="2973388149"
+                    data-ad-format="auto"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+		
+		<hr>
+
+				<h2 id="adapters-in-android">Adapters in Android</h2>
+
+<p>An Adapter object acts as a bridge between an AdapterView and the underlying data for that view. The Adapter provides access to the data items. The Adapter is also responsible for making a View for each item in the data set.</p>
+
+<p>Regarding the challenge, we have to display the list of criminals. This can be done using ListView and ListFragment. We need an adapter to bind the data fetched from the database to corresponding row in the list. On clicking rows of listview, we need to show the  details of the corresponding criminal. This can be done by adding <code class="highlighter-rouge">setOnClickListner()</code> to row item in the list.</p>
+
+<h2 id="listfragment">ListFragment</h2>
+
+<p><a href="http://developer.android.com/guide/components/fragments.html">Fragment</a> is a piece of activity’s UI. We prefer to create the user interface using fragments and add these fragments to activity so that they can be reused. It’s lifecycle is similar to that of the activity.</p>
+
+<p><a href="http://developer.android.com/reference/android/app/ListFragment.html">ListFragment</a> displays a list of items by binding to a data source such as an array or Cursor, and exposes event handlers when the user selects an item.</p>
+
+<p>It hosts a ListView object that can be bound to different data sources, typically either an array or a Cursor holding query results.</p>
+
+<h3 id="how-do-we-add-fragment-to-activity">How do we add Fragment to Activity?</h3>
+
+<p>The following snippet illustrates how do we add the fragment to activity. This should be done in the <code class="highlighter-rouge">onCreate</code>  method of activity.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>fManager = getSupportFragmentManager();
+fTranslation = fManager.beginTransaction();
+exampleListFragment = new ExampleListFragment(); 	
+fTranslation.replace(R.id.list_fragment,exampleListFragment);
+fTranslation.commit();
+</code></pre>
+</div>
+
+<p>The exampleListFragment is declared as :</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>public class ExampleListFragment extends ListFragment{
+
+ListView listview;
+List&lt;RowItem&gt; rowlist;
+    
+@Override
+public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
+
+View v = inflater.inflate(R.layout.list_fragment,
+			container, false);
+listview = (ListView)v.findViewById(android.R.id.list);
+
+//data to be binded with list
+rowlist = new ArrayList&lt;RowItem&gt;(); 
+
+rowlist.add (new RowItem(.....));
+...
+... //adding items to rowlist
+
+//adding adapter to listview    
+list.setAdapter(new RowListAdapter(context, result));
+
+	//returns ListFragment ViewGroup  
+	return v;
+ }
+
+}	
+</code></pre>
+</div>
+
+<p><a href="http://developer.android.com/reference/android/widget/ListView.html">ListView</a> is a <code class="highlighter-rouge">ViewGroup</code> which shows list of scrollable items. (<a href="http://developer.android.com/reference/android/view/ViewGroup.html">ViewGroup</a> is a special view that can contain other views. The <code class="highlighter-rouge">ViewGroup</code> is the base class for layouts and views containers.)</p>
+
+<p><a href="https://www.airpair.com/android/list-fragment-android-studio">Here</a> is quick tutorial on <code class="highlighter-rouge">ListFragment</code> using AndroidStudio.</p>
+
+<hr />
+
+<h2 id="adapter">Adapter</h2>
+
+<p><a href="http://developer.android.com/reference/android/widget/Adapter.html">Adapter</a> in android acts as bridge  between an <code class="highlighter-rouge">AdapterView</code> and the underlying data for that view.  The Adapter provides access to the data items. The Adapter is also responsible for making a View for each item in the data set.</p>
+
+<p><img src="http://www.edureka.co/blog/wp-content/uploads/2013/03/adapters-1.png" alt="enter image description here" /></p>
+
+<p>Data can be information obtained from database or server  or it can be already present in program. There are many subclasses of Adapter, for example <a href="http://developer.android.com/reference/android/widget/CursorAdapter.html">CursorAdapter</a>, <a href="http://developer.android.com/reference/android/widget/ArrayAdapter.html">ArrayAdapter</a> etc.</p>
+
+<h2 id="baseadapter">BaseAdapter</h2>
+<p><a href="http://developer.android.com/reference/android/widget/BaseAdapter.html">BaseAdapter</a> is an abstract class which implements ListAdapter and SpinnerAdapter Interface. Hence, we may use it for implementing both <a href="http://developer.android.com/reference/android/widget/ListView.html">ListView</a> and <a href="http://developer.android.com/guide/topics/ui/controls/spinner.html">Spinner</a>. Following methods are necessary to implement for creating a subclass of BaseAdapter:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">getCount()</code> : <code class="highlighter-rouge">int</code> returns number of rows in list</li>
+  <li><code class="highlighter-rouge">getItem(int position)</code>: <code class="highlighter-rouge">Object</code> returns Item object</li>
+  <li><code class="highlighter-rouge">getItemId(int position)</code>: <code class="highlighter-rouge">long</code> returns the id of the item at position <code class="highlighter-rouge">position</code></li>
+  <li><code class="highlighter-rouge">getView(int arg0, View arg1, ViewGroup arg2)</code>: <code class="highlighter-rouge">View</code></li>
+</ul>
+
+<h3 id="how-getview-works">How getView() works?</h3>
+
+<p>Adapters call the <code class="highlighter-rouge">getView()</code> method which returns a view for each item within the adapter view. The layout format and the corresponding data for an item within the adapter view is set in the <code class="highlighter-rouge">getView()</code> method. Due to performance reasons, <code class="highlighter-rouge">getView()</code> doesn’t returns a new View object every time it is called. So what Android does is that it recycles the views and reuses the view that goes out of focus.</p>
+
+<p><img src="http://www.edureka.co/blog/wp-content/uploads/2013/03/021-1.png" alt="Visual representation of this recycle process:" /></p>
+
+<h2 id="cursoradapter">CursorAdapter</h2>
+
+<p><a href="http://developer.android.com/reference/android/database/Cursor.html">Cursor</a> is an interface which provides random read-write access to result set returned by read write query. This interface has been explained in our previous post on <a href="https://mobile.sdslabs.co/2015/01/08/databases-in-android/">databases in android</a>.</p>
+
+<p><a href="http://developer.android.com/reference/android/widget/CursorAdapter.html">CursorAdapter</a> is a subclass of BaseAdapter. It is used to bind cursor data qureied from database to AdapterView. Cursor adapter has following abstract methods,</p>
+
+<ul>
+  <li>
+    <p><code class="highlighter-rouge">newView(Context context, Cursor cursor, ViewGroup parent)</code>: <code class="highlighter-rouge">View</code> 
+ This method creates new AdapterView to hold data.</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">bindView(View view, Context context, Cursor cursor)</code>: <code class="highlighter-rouge">void</code> 
+ In this method CursorAdapter just elements to list’s view.</p>
+  </li>
+</ul>
+
+<p><a href="http://developer.android.com/reference/android/widget/SimpleCursorAdapter.html">SimpleCursorAdapter</a> is subclass of CursorAdapter. If we use it, we don’t have to create separate Adapter’s subclass. Here is a sample code that shows how do we attach this to listview.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>    // The desired columns to be bound    
+    String[] columns = new String[] { People.NAME, People.NUMBER };
+
+    // XML defined views which the data will be bound to
+    int[] to = new int[] { R.id.name_entry, R.id.number_entry };
+ 
+    // Create the adapter using the cursor pointing to the desired data as well as the layout information
+    SimpleCursorAdapter mAdapter = new SimpleCursorAdapter(this, R.layout.list_example_entry, cursor, columns, to);
+
+    // Set this adapter as your list's adapter
+    this.setListAdapter(mAdapter);
+</code></pre>
+</div>
+
+<h2 id="array-adapter">Array Adapter</h2>
+<p><a href="http://developer.android.com/reference/android/widget/ArrayAdapter.html">Array Adapter</a> is subclass of BaseAdapter. It is used to bind data in arrayList to AdapterView.</p>
+
+<p>In this type of adapter, we pass List, context of activity and layout of entry as attribute, but layout of entry can be only those which are already present in the library. We associate an adapter with View.</p>
+
+<hr />
+
+<h2 id="custom-adapters-for-listview">Custom Adapters for ListView</h2>
+
+<p><a href="http://stackoverflow.com/questions/8166497/custom-adapter-for-list-view">Custom Adapter</a> is used when we want to design and add more UI components  to an item of ListView or GridView. We build this class on our own. This class extends Adapter or Adapter’s subclass.   In the getView() method of class, we may set custom content View.</p>
+
+<center> <img src="http://i-cdn.phonearena.com/images/articles/126045-image/Androids-new-clothes.jpg" height="500" /> </center>
+<p><em>Image:  ListView using CustomAdapter</em></p>
+
+<p>In general, CustomArrayAdapter overrides the following methods of ArrayAdapter,</p>
+
+<p>Example code: getView()</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>    public View getView(int position, View convertView, ViewGroup parent)
+    {
+        View entryView = convertView;
+        if(convertView == null){
+            LayoutInflater layoutInflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            entryView = layoutInflater.inflate(R.layout.entry_item, parent,false);
+        }
+	
+        TextView entryUser =(TextView)entryView.findViewById(R.id.entry_user);
+        //and so on, add all UI components 
+        //setOnClickListener events to button components
+
+        return entryView;
+    }
+</code></pre>
+</div>
+
+<p>Similarly, we can create CustomCursorAdapter by extending CursorAdapter. SubClass of CursorAdapter must have to override the following methods of CursorAdapter. Here is sample code for <code class="highlighter-rouge">newView()</code> and <code class="highlighter-rouge">bindView()</code> abstract methods of CursorAdapter.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>     /**
+     *Makes a new view to hold the data pointed to by cursor.
+     */
+    @Override
+    public View newView(Context context, Cursor cursor, ViewGroup parent)
+    {
+        LayoutInflater inflater = LayoutInflater.from(context);
+        View newView = inflater.inflate(
+                android.R.layout.simple_list_item_1, parent, false);
+        return newView;
+    } 
+
+    @Override
+    public void bindView(View view, Context context, Cursor cursor)
+    {
+        TextView txtView = (TextView)view.findViewById(android.R.id.text1);
+        txtView.setText(cursor.getString(
+        cursor.getColumnIndex("person")));
+    }
+</code></pre>
+</div>
+
+<p><a href="http://thinkandroid.wordpress.com/2010/01/11/custom-cursoradapters/">Here</a> is a quick tutorial on CustomCursorAdapter.</p>
+
+<p>This concludes the post on adapters. Hope you will now be able to implement lists in your app.</p>
+
+<p>Keep watching for our next post on google maps. Till then goodbye and happy coding !</p>
+
+
+                <hr>
+		    
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- jekynewage google ads -->
+                <ins class="adsbygoogle"
+                    style="display:block"
+                    data-ad-client="ca-pub-9204963049240271"
+                    data-ad-slot="2973388149"
+                    data-ad-format="auto"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/droid%20wars/2015/01/06/starting-with-the-challenge/" data-toggle="tooltip" data-placement="top" title="Starting with the challenge">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/google%20maps%20api%20v2/2015/01/12/google-maps-android-api/" data-toggle="tooltip" data-placement="top" title="Google Maps Android API v2">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</article>
+
+<hr>
+
+
+<article>
+  <div id="disqus" class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+      <h2 class="section-heading">Leave a comment! We <i style="color:red"class="fa fa-heart"></i> it!</h2>
+
+      <script id="dsq-count-scr" src="//jeky-new-age.disqus.com/count.js" async></script>
+
+
+      <div id="disqus_thread"></div>
+      <script>
+
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+      /*
+      var disqus_config = function () {
+      this.page.url = ;  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = ;; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = '//jeky-new-age.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+    </div>
+  </div>
+</div>
+</article>
+
+<hr>
+
+
+
+
+
+  
+<section id="contact" class="contact bg-primary">
+    <div class="container">
+        <h2>We <i class="fa fa-heart"></i> new friends!</h2>
+        <ul class="list-inline list-social">
+            
+            <li class="social-twitter">
+                <a href="https://twitter.com/lantoniotrento" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+            </li>
+        
+            <li class="social-facebook">
+                <a href="https://facebook.com/mdgiitr" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+            </li>
+        
+            <li class="social-google-plus">
+                <a href="https://plus.google.com/mobiledevelopmentgroup" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+            </li>
+        
+            <li class="social-github">
+                <a href="http://github.com/sdsmdg" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+            </li>
+        
+        </ul>
+        <!-- <ul class="list-inline list-social">
+            <li class="social-twitter">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li class="social-facebook">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li class="social-google-plus">
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+            </li>
+        </ul> -->
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <p>Powered by Jekyll. All Rights Reserved.</p>
+    </div>
+</footer>
+
+  <!-- jQuery -->
+<script src="/js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript
+<script src="js/bootstrap.min.js"></script> -->
+
+<!-- Plugin JavaScript -->
+<script src="/js/jquery.easing.min.js"></script>
+<script src="/js/jquery.fittext.js"></script>
+<script src="/js/wow.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/creative.js"></script>
+
+<!-- jQuery
+<script src="/vendor/jquery/jquery.min.js"></script> -->
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+<!-- Theme JavaScript -->
+<script src="/js/new-age.min.js"></script>
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-86331249-1']);
+          _gaq.push(['_trackPageview']);
+  (function () {
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript';
+      ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+</body>
+
+</html>
