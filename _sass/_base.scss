@@ -73,7 +73,7 @@ p {
       letter-spacing: 1px;
       color: $theme-primary;
       &:hover, &:focus {
-        color: #fcbd20;
+        color: #222222;
       }
     }
     .navbar-toggle {
@@ -115,18 +115,18 @@ p {
     background-color: transparent;
     border-color: transparent;
     .navbar-header .navbar-brand {
-      color: rgba(255, 255, 255, 0.7);
+      color: black;
       &:hover, &:focus {
-        color: white;
+        color: black;
       }
     }
     .nav > li > a {
-      color: rgba(255, 255, 255, 0.7);
+      color: black;
       &:focus {
-        color: rgba(255, 255, 255, 0.7);
+        color: black;
       }
       &:hover, &:focus:hover {
-        color: white;
+        color: black;
       }
     }
     &.affix {
@@ -223,6 +223,7 @@ header {
 @media (min-width: 992px) {
   header .header-content .header-content-inner h1 {
     font-size: 50px;
+    color: white;
   }
 }
 
@@ -388,6 +389,12 @@ section {
             background-color: #d73925;
           }
         }
+        &.social-github a {
+          background-color: #514c4b;
+          &:hover {
+            background-color: #222222;
+          }
+        }
       }
     }
   }
@@ -463,8 +470,8 @@ footer {
 }
 
 .btn-outline {
-  color: white;
-  border-color: white;
+  color: black;
+  border-color: black;
   border: 1px solid;
   &:hover, &:focus, &:active, &.active {
     color: white;
@@ -483,6 +490,26 @@ footer {
 .btn-xl {
   padding: 15px 45px;
   font-size: 11px;
+}
+
+#mybtn2
+{
+  border-color: white;
+  color: white;
+  &:hover, &:focus, &:active, &.active {
+    color: white;
+    background-color: $theme-primary;
+    border-color: $theme-primary;
+}
+
+#mybtn1
+{
+  border-color: white;
+  color: white;
+  &:hover, &:focus, &:active, &.active {
+    color: white;
+    background-color: $theme-primary;
+    border-color: $theme-primary;
 }
 
 ::-moz-selection, ::selection {

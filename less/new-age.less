@@ -96,17 +96,17 @@ p {
         background-color: transparent;
         border-color: transparent;
         .navbar-header .navbar-brand {
-            color: fade(white, 70%);
+            color: fade(black, 70%);
             &:hover,
             &:focus {
-                color: white;
+                color: black;
             }
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: fade(white, 70%);
+            color: fade(black, 70%);
             &:hover {
-                color: white;
+                color: black;
             }
         }
         &.affix {
@@ -116,14 +116,14 @@ p {
                 color: @gray-darker;
                 &:hover,
                 &:focus {
-                    color: @theme-primary;
+                    color: white;
                 }
             }
             .nav > li > a,
             .nav > li > a:focus {
                 color: @gray-darker;
                 &:hover {
-                    color: @theme-primary;
+                    color: #000000 ;
                 }
             }
         }
@@ -268,10 +268,10 @@ section.features {
         }
         i {
             font-size: 80px;
-              background: -webkit-linear-gradient(to left, @theme-secondary , @theme-tertiary);
-              background: linear-gradient(to left, @theme-secondary , @theme-tertiary);
+              background: #dc2430;
+              
               -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;
+              -webkit-text-fill-color: white;
         }
     }
     @media(min-width: 992px) {
@@ -356,6 +356,14 @@ section.contact {
                     background-color: @brand-google-plus;
                     &:hover {
                         background-color: darken(@brand-google-plus, 5%);
+                    }
+                }
+            }
+            &.social-github {
+                a {
+                    background-color: @brand-github;
+                    &:hover {
+                        background-color: darken(@brand-github, 5%);
                     }
                 }
             }
