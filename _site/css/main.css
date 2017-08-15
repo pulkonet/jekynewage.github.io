@@ -365,10 +365,18 @@ footer {
 #mybtn2 {
   border-color: white;
   color: white; }
+  #mybtn2:hover, #mybtn2:focus, #mybtn2:active, #mybtn2.active {
+    color: white;
+    background-color: #493fff;
+    border-color: #493fff; }
 
 #mybtn1 {
   border-color: white;
   color: white; }
+  #mybtn1:hover, #mybtn1:focus, #mybtn1:active, #mybtn1.active {
+    color: white;
+    background-color: #493fff;
+    border-color: #493fff; }
 
 ::-moz-selection, ::selection {
   color: white;
