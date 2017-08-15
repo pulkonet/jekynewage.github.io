@@ -1,4 +1,4 @@
-#New Age Jekyll theme
+#Mobile Development Group
 =========================
 
 ## If you are a company and you're going to use the blog: 
