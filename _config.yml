@@ -4,7 +4,7 @@ email:
 description: Where ideas meet reality
 
 baseurl: "/jekynewage.github.io" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
-url: "https://pulkonet.github.io" # the base hostname & protocol for your site
+url: "https://www.pulkonet.github.io/" # the base hostname & protocol for your site
 
 
 #Google Ad Words Data from scripts code (using Google responsive options) and ad client
