@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Post Header -->
-<header id="header" class="intro-header bg-primary text-center" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+<!-- <header id="header" class="intro-header bg-primary text-center" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -18,41 +18,45 @@ layout: default
             </div>
         </div>
     </div>
+</header> -->
+<!-- <header>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-heading">
+          <img src="MDGLOGO.svg" style="width: 100px; height: auto"/>
+          <h1>{{ page.title }}</h1>
+                {% if page.subtitle %}
+                <h2 class="subheading">{{ page.subtitle }}</h2>
+                {% endif %}
+        </div>        
+      </div>
+    </div>
 </header>
-<hr>
-<!-- Post Content -->
+ --><!-- Post Content -->
 <article>
     <div id="post" class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-		{% if site.data-ad-client %}  
-		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <!-- jekynewage google ads -->
-                <ins class="adsbygoogle"
-                    style="display:block"
-                    data-ad-client="ca-pub-9204963049240271"
-                    data-ad-slot="2973388149"
-                    data-ad-format="auto"></ins>
-                <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-		{% endif %}
+            <br>
+            <br>
+            <div class="text-center">
+		         <img src="{{"/img/favicon.png" | prepend: site.baseurl }}" style="width:100px; height: auto; margin: 0 auto;" class="text-center">
+             <h1>{{ page.title }}</h1>
+                {% if page.subtitle %}
+                <h2 class="subheading">{{ page.subtitle }}</h2>
+                {% endif %}
+            </div>
+
+
 		<hr>
+    <br>
 
 				{{ content }}
 
                 <hr>
 		    
-		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <!-- jekynewage google ads -->
-                <ins class="adsbygoogle"
-                    style="display:block"
-                    data-ad-client="ca-pub-9204963049240271"
-                    data-ad-slot="2973388149"
-                    data-ad-format="auto"></ins>
-                <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
+               
 
                 <ul class="pager">
                     {% if page.previous.url %}
