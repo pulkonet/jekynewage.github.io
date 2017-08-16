@@ -1,6 +1,6 @@
 # Site settings
 title: Mobile Development Group, IIT Roorkee
-email:
+email: sdsmdg@gmail.com
 description: Where ideas meet reality
 
 
@@ -25,6 +25,8 @@ social:
     url: https://plus.google.com/mobiledevelopmentgroup
   - title: github
     url: http://github.com/sdsmdg
+  - title: envelope
+    url: mailto:sdsmdg@gmail.com
 
 # Build settings
 markdown: kramdown

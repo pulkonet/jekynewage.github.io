@@ -163,7 +163,6 @@ GEM
     thread_safe (0.3.6)
     tzinfo (1.2.3)
       thread_safe (~> 0.1)
-    wdm (0.1.1)
 
 PLATFORMS
   ruby
@@ -176,7 +175,6 @@ DEPENDENCIES
   jekyll-paginate
   kramdown
   rough
-  wdm (>= 0.1.0)
 
 BUNDLED WITH
    1.15.3
