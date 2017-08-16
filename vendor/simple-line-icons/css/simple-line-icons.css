@@ -4,6 +4,7 @@
   src: url('../fonts/Simple-Line-Icons.eot?v=2.3.2#iefix') format('embedded-opentype'), url('../fonts/Simple-Line-Icons.woff2?v=2.3.2') format('woff2'), url('../fonts/Simple-Line-Icons.ttf?v=2.3.2') format('truetype'), url('../fonts/Simple-Line-Icons.woff?v=2.3.2') format('woff'), url('../fonts/Simple-Line-Icons.svg?v=2.3.2#simple-line-icons') format('svg');
   font-weight: normal;
   font-style: normal;
+  color: #ffc107;
 }
 /*
  Use the following CSS code if you want to have a class per icon.
@@ -325,6 +326,7 @@
 }
 .icon-screen-smartphone:before {
   content: "\e010";
+  color: #ffc107;
 }
 .icon-screen-desktop:before {
   content: "\e011";
