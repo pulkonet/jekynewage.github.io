@@ -53,11 +53,11 @@ p {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 200;
+  font-weight: 250;
   letter-spacing: 1px; }
   .navbar-default .navbar-header .navbar-brand {
     font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-    font-weight: 200;
+    font-weight: 250;
     letter-spacing: 1px;
     color: #ffc107; }
     .navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus {
@@ -293,6 +293,10 @@ section {
         background-color: #514c4b; }
         section.contact ul.list-social li.social-github a:hover {
           background-color: #222222; }
+      section.contact ul.list-social li.social-envelope a {
+        background-color: #1da1f2; }
+        section.contact ul.list-social li.social-envelope a:hover {
+          background-color: #0d95e8; }
 
 @media (min-width: 768px) {
   section.download .badges .badge-link {

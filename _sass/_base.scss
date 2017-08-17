@@ -64,12 +64,12 @@ p {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 200;
+  font-weight: 250;
   letter-spacing: 1px;
   .navbar-header {
     .navbar-brand {
       font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-      font-weight: 200;
+      font-weight: 250;
       letter-spacing: 1px;
       color: $theme-primary;
       &:hover, &:focus {
@@ -388,6 +388,12 @@ section {
           background-color: #514c4b;
           &:hover {
             background-color: #222222;
+          }
+        }
+        &.social-envelope a {
+          background-color: #1da1f2;
+          &:hover {
+            background-color: #0d95e8;
           }
         }
       }
